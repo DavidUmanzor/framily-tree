@@ -1,2116 +1,2816 @@
 var brothers = [
   {
-    "name": "Jack W.",
+    "name": "Rucheli Berry (Cathleen Manville)",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "familystarted": "Saints"
+    "familystarted": "1"
   },
   {
-    "name": "Berek Waldman",
-    "big": "Jack W.",
-    "graduated": true
-  },
-  {
-    "name": "Robert Terzoli",
-    "big": "Berek Waldman",
-    "graduated": true
-  },
-  {
-    "name": "Matt Louis",
-    "big": "Chris Alley",
-    "graduated": true
-  },
-  {
-    "name": "Eric Pedroza",
-    "big": "Robert Terzoli",
-    "graduated": true
-  },
-  {
-    "name": "Elijah Kenan",
-    "big": "Robert Terzoli",
-    "graduated": true
-  },
-  {
-    "name": "Potragent Phuong",
-    "big": "Andy Liu",
-    "graduated": true
-  },
-  {
-    "name": "Michael Huai",
-    "big": "Andy Liu",
-    "graduated": true
-  },
-  {
-    "name": "Nick Yee",
-    "big": "Eric Pedroza",
-    "graduated": true
-  },
-  {
-    "name": "Grant Bishop",
-    "big": "Eric Pedroza",
-    "graduated": true
-  },
-  {
-    "name": "Nick Karp",
-    "big": "Justin Hutton",
+    "name": "Jed Gorman",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "familystarted": "Liberators"
+    "familystarted": "2"
   },
   {
-    "name": "Daniel Kwasnick",
-    "big": "Justin Hutton",
-    "pledgeclass": "Spring 2011",
-    "graduated": true
-  },
-  {
-    "name": "Jered Vestal",
-    "big": "Justin Hutton",
-    "graduated": true
-  },
-  {
-    "name": "Arthur Yeung",
-    "big": "Jered Vestal",
-    "graduated": true
-  },
-  {
-    "name": "Andy Hindoyan",
+    "name": "Kyle Barber",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "familystarted": "Regulators"
+    "familystarted": "3"
   },
   {
-    "name": "Trevor Maddison",
+    "name": "Jessica Glover (Harris)",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "familystarted": "Regulators"
+    "familystarted": "4"
   },
   {
-    "name": "Garrett Morgan",
+    "name": "Megan Hellem",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "familystarted": "The Family"
+    "familystarted": "5"
   },
   {
-    "name": "Suraj Patel",
-    "big": "Ron Marconnet",
-    "graduated": true
-  },
-  {
-    "name": "David Urdaneta",
-    "big": "Ron Marconnet",
-    "graduated": true
-  },
-  {
-    "name": "Ryan Lewe",
-    "big": "Ron Marconnet",
-    "graduated": true
-  },
-  {
-    "name": "Eric Yang",
-    "big": "David Urdaneta",
-    "graduated": true
-  },
-  {
-    "name": "David Louie",
-    "big": "Ryan Lewe",
-    "pledgeclass": "Spring 2011",
-    "graduated": true
-  },
-  {
-    "name": "Tim Egan",
-    "big": "Andy Hindoyan",
-    "graduated": true
-  },
-  {
-    "name": "West Cohan",
-    "big": "Andy Hindoyan",
-    "graduated": true
-  },
-  {
-    "name": "Austin Tate",
-    "big": "Tim Egan",
-    "graduated": true
-  },
-  {
-    "name": "Mark Reith",
-    "big": "Tim Egan",
-    "graduated": true
-  },
-  {
-    "name": "Josh May",
-    "big": "Trevor Maddison",
-    "graduated": true
-  },
-  {
-    "name": "Sachin Nediyanchath",
-    "big": "Josh May",
-    "graduated": true
-  },
-  {
-    "name": "Sean Atamdede",
-    "big": "Sachin Nediyanchath",
-    "graduated": true
-  },
-  {
-    "name": "Addison Yang",
-    "big": "Sachin Nediyanchath",
-    "graduated": true
-  },
-  {
-    "name": "Ron Marconnet",
+    "name": "Stephen Lander",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "familystarted": "Regulators"
+    "familystarted": "6"
   },
   {
-    "name": "Mallvy Kahal",
-    "big": "Garrett Morgan",
-    "graduated": true
-  },
-  {
-    "name": "Adam Caparco",
-    "big": "Garrett Morgan",
-    "graduated": true
-  },
-  {
-    "name": "Jae-Ho Nam",
-    "big": "Mallvy Kahal",
-    "graduated": true
-  },
-  {
-    "name": "Philippe Videau",
-    "big": "Henry Okoiroke",
-    "graduated": true
-  },
-  {
-    "name": "Matt Abrams",
+    "name": "Josh Lueck",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "familystarted": "The Family"
+    "familystarted": "7"
   },
   {
-    "name": "Brian Trinh",
-    "big": "Matt Abrams",
-    "graduated": true
-  },
-  {
-    "name": "Will Ikerd",
+    "name": "Tyler Pickett",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "familystarted": "The Sith and Brandon Louey"
+    "familystarted": "8"
   },
   {
-    "name": "Josh Goldman",
-    "big": "Will Ikerd",
-    "graduated": true
-  },
-  {
-    "name": "Maneesh Karna",
-    "big": "Will Ikerd",
-    "graduated": true
-  },
-  {
-    "name": "Brandon Louey",
-    "big": "Josh Goldman",
-    "graduated": true
-  },
-  {
-    "name": "Justin Hutton",
-    "big": "Robert Terzoli",
-    "pledgeclass": "Spring 2010",
-    "graduated": true
-  },
-  {
-    "name": "Henry Okoiroke",
-    "pledgeclass": "Fall 2010",
+    "name": "Jose Rodriguez",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "familystarted": "The Family"
+    "familystarted": "9"
   },
   {
-    "name": "Chris Alley",
-    "big": "Berek Waldman",
-    "pledgeclass": "Spring 2011",
-    "graduated": true
-  },
-  {
-    "name": "Andy Liu",
-    "big": "Berek Waldman",
-    "pledgeclass": "Fall 2010",
-    "graduated": true
-  },
-  {
-    "name": "Alan Covarrubias",
-    "big": "Austin Tate",
-    "pledgeclass": "Fall 2011",
-    "graduated": true
-  },
-  {
-    "name": "Alex Jimenez",
-    "big": "West Cohan",
-    "pledgeclass": "Fall 2011",
-    "graduated": true
-  },
-  {
-    "name": "Alex Sanciangco",
-    "big": "Henry Okoiroke",
-    "pledgeclass": "Winter 2012",
-    "graduated": true
-  },
-  {
-    "name": "James Robarge",
-    "big": "Sachin Nediyanchath",
-    "pledgeclass": "Winter 2012",
-    "graduated": true
-  },
-  {
-    "name": "Nick Westman",
-    "big": "Robert Terzoli",
-    "pledgeclass": "Spring 2012",
+    "name": "Shaun Thompson",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "familystarted": "Liberators"
+    "familystarted": "10"
   },
   {
-    "name": "John Sy",
-    "big": "Josh Goldman",
-    "pledgeclass": "Spring 2012",
-    "graduated": true
-  },
-  {
-    "name": "Chris Spencer",
-    "big": "Andy Liu",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Will Howard",
-    "big": "Matt Louis",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Johnny Gray",
-    "big": "Justin Hutton",
-    "pledgeclass": "Fall 2012",
+    "name": "Terrence Zaino",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "familystarted": "Liberators"
+    "familystarted": "11"
   },
   {
-    "name": "Kevin Patterson",
-    "big": "Elijah Kenan",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Gabe Pollock",
-    "big": "Elijah Kenan",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Aaron Narayan",
-    "big": "David Louie",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "James Wu",
-    "big": "Mark Reith",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Will Henrikson",
-    "big": "Alex Jimenez",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Jonathan Mendoza",
-    "big": "Sachin Nediyanchath",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Nick Blackburn",
-    "big": "James Robarge",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Joseph Dominguez",
-    "big": "Mallvy Kahal",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Joe Mudy",
-    "big": "Philippe Videau",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "David Boudreau",
-    "big": "Henry Okoiroke",
-    "pledgeclass": "Fall 2012",
-    "inactive": true
-  },
-  {
-    "name": "Matt Pennington",
-    "big": "Alex Sanciangco",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Carlos Zamudio",
-    "big": "Matt Abrams",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Doug Waters",
-    "big": "Nick Westman",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Cameron Shabahang",
-    "big": "Nick Karp",
-    "pledgeclass": "Fall 2012",
-    "graduated": true
-  },
-  {
-    "name": "Richard Wang",
-    "big": "Chris Alley",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Ahmed Hamade",
-    "big": "Elijah Kenan",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Daniel Jagoda",
-    "big": "Chris Spencer",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Jeremy Rodriguez",
-    "big": "Alan Covarrubias",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Daniel Salas",
-    "big": "James Robarge",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Raymond Mai",
-    "big": "Nick Blackburn",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Ted Mercado",
-    "big": "Garrett Morgan",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Josh Uberti",
-    "big": "Cameron Shabahang",
-    "pledgeclass": "Winter 2013",
-    "graduated": true
-  },
-  {
-    "name": "Eric Lim",
-    "big": "Matt Louis",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Jason Allen",
-    "big": "Ahmed Hamade",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Jose Garcia",
-    "big": "Daniel Jagoda",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Brian Song",
-    "big": "James Wu",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Nate Fischer",
-    "big": "Alex Jimenez",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Spencer Shankle",
-    "big": "James Robarge",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Joey Cisneros",
-    "big": "Joseph Dominguez",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Charlie Ho",
-    "big": "Henry Okoiroke",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Ollie Cunningham",
-    "big": "Nick Karp",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Ryan Kay",
-    "big": "Johnny Gray",
-    "pledgeclass": "Spring 2013",
-    "graduated": true
-  },
-  {
-    "name": "Anthony Cerrato",
-    "big": "Matt Louis",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Victor Yu",
-    "big": "Arthur Yeung",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Darwin Valentine",
-    "big": "Gabe Pollock",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Anthony Cheung",
-    "big": "Michael Huai",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Kareem Barghouthi",
-    "big": "Alex Jimenez",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Sujith Cherukumilli",
-    "big": "Jonathan Mendoza",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Chris Wellbrook",
-    "big": "Spencer Shankle",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Sidney Aung",
-    "big": "Ted Mercado",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Daniel Viray",
-    "big": "Alex Sanciangco",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Tyler Suh",
-    "big": "Matt Pennington",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Joe Ryu",
-    "big": "Nick Westman",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Frank Wathen",
-    "big": "Nick Karp",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Michael Say",
-    "big": "Ollie Cunningham",
-    "pledgeclass": "Fall 2013",
-    "graduated": true
-  },
-  {
-    "name": "Ryan Eason",
-    "big": "Johnny Gray",
-    "pledgeclass": "Fall 2013",
+    "name": "Jeremy Ayala",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "inactive": true
+    "familystarted": "12"
   },
   {
-    "name": "David Lee",
-    "big": "Richard Wang",
-    "pledgeclass": "Winter 2014",
-    "graduated": true
-  },
-  {
-    "name": "Zelos Zhu",
-    "big": "Jose Garcia",
-    "pledgeclass": "Winter 2014",
-    "graduated": true
-  },
-  {
-    "name": "Paul Wason",
-    "big": "Chris Wellbrook",
-    "pledgeclass": "Winter 2014",
+    "name": "Nick Bernier",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "inactive": true
+    "familystarted": "13"
   },
   {
-    "name": "Aniket Saoji",
-    "big": "Garrett Morgan",
-    "pledgeclass": "Winter 2014",
-    "graduated": true
-  },
-  {
-    "name": "Anthony Chadwick",
-    "big": "David Boudreau",
-    "pledgeclass": "Winter 2014",
-    "graduated": true
-  },
-  {
-    "name": "Edison Lu",
-    "big": "Cameron Shabahang",
-    "pledgeclass": "Winter 2014",
+    "name": "Nathan Novick",
+    "pledgeclass": "Founding Father",
     "graduated": true,
-    "inactive": true
+    "familystarted": "14"
   },
   {
-    "name": "Christian Gonzalez",
-    "big": "Nick Blackburn",
-    "pledgeclass": "Winter 2014",
+    "name": "Michael Colina",
+    "pledgeclass": "Alpha (F'06)",
     "graduated": true
   },
   {
-    "name": "Mitchell Bendersky",
-    "big": "Kevin Patterson",
-    "pledgeclass": "Fall 2014",
+    "name": "Makid Ekram",
+    "big": "Tyler Pickett",
+    "pledgeclass": "Alpha (F'06)",
     "graduated": true
   },
   {
-    "name": "Nick Ota",
-    "big": "Daniel Jagoda",
-    "pledgeclass": "Fall 2014",
+    "name": "Gennie Futch",
+    "pledgeclass": "Alpha (F'06)",
     "graduated": true
   },
   {
-    "name": "Blake Bergstrom",
-    "big": "Jose Garcia",
-    "pledgeclass": "Fall 2014",
+    "name": "Marcus Geiger",
+    "big": "Jessica Glover (Harris)",
+    "pledgeclass": "Alpha (F'06)",
     "graduated": true
   },
   {
-    "name": "Niko Pappas",
-    "big": "Zelos Zhu",
-    "pledgeclass": "Fall 2014",
+    "name": "Hal Holloman",
+    "pledgeclass": "Alpha (F'06)",
     "graduated": true
   },
   {
-    "name": "Justin Miller",
-    "big": "Nate Fischer",
-    "pledgeclass": "Fall 2014",
+    "name": "Russell Horton",
+    "big": "Stephen Lander",
+    "pledgeclass": "Alpha (F'06)",
     "graduated": true
   },
   {
-    "name": "Andrew Alas",
-    "big": "Daniel Salas",
-    "pledgeclass": "Fall 2014",
+    "name": "Edgar Kidd",
+    "big": "Rucheli Berry (Cathleen Manville)",
+    "pledgeclass": "Alpha (F'06)",
     "graduated": true
   },
   {
-    "name": "Eric Kim",
-    "big": "Tyler Suh",
-    "pledgeclass": "Fall 2014",
+    "name": "Hilary Palmer",
+    "big": "Jose Rodriguez",
+    "pledgeclass": "Alpha (F'06)",
     "graduated": true
   },
   {
-    "name": "Micah Minchow",
-    "big": "Alex Sanciangco",
-    "pledgeclass": "Fall 2014",
+    "name": "Aimee Roberts",
+    "pledgeclass": "Alpha (F'06)",
     "graduated": true
   },
   {
-    "name": "Canaan Howard",
-    "big": "Doug Waters",
-    "pledgeclass": "Fall 2014",
-    "graduated": true,
-    "inactive": true
+    "name": "Dale Rosenbaum",
+    "big": "Megan Hellem",
+    "pledgeclass": "Alpha (F'06)",
+    "graduated": true
+  },
+  {
+    "name": "Paul Cortes",
+    "pledgeclass": "Beta (S'07)",
+    "graduated": true
+  },
+  {
+    "name": "Derek Giardino",
+    "big": "Edgar Kidd",
+    "pledgeclass": "Beta (S'07)",
+    "graduated": true
+  },
+  {
+    "name": "Charles Greenberg",
+    "big": "Tyler Pickett",
+    "pledgeclass": "Beta (S'07)",
+    "graduated": true
+  },
+  {
+    "name": "Ashley Marczak",
+    "pledgeclass": "Beta (S'07)",
+    "graduated": true
+  },
+  {
+    "name": "David Meek",
+    "big": "Russell Horton",
+    "pledgeclass": "Beta (S'07)",
+    "graduated": true
+  },
+  {
+    "name": "Melissa Piedrahita ",
+    "big": "Jose Rodriguez",
+    "pledgeclass": "Beta (S'07)",
+    "graduated": true
+  },
+  {
+    "name": "Rylee Pivarnik (Hernandez)",
+    "big": "Megan Hellem",
+    "pledgeclass": "Beta (S'07)",
+    "graduated": true
+  },
+  {
+    "name": "Amaury Rodriguez",
+    "pledgeclass": "Beta (S'07)",
+    "graduated": true
+  },
+  {
+    "name": "Removed",
+    "pledgeclass": "Beta (S'07)",
+    "graduated": true
+  },
+  {
+    "name": "Jereme Carne",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "Brian Davis",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "Magno Gil",
+    "big": "Marcus Geiger",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "Jaime Gonzales",
+    "big": "Nathan Novick",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "Michael Grasso",
+    "big": "Stephen Lander",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "Jason Heintz",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "Daniel Hernandez",
+    "big": "Tyler Pickett",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "Scotty Hickson",
+    "big": "Edgar Kidd",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "Albert Leyte-Vidal",
+    "big": "Charles Greenberg",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "Katrina Negrin",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "George Ngo",
+    "big": "Derek Giardino",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "John Repass",
+    "big": "Megan Hellem",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "Matthew Vinson",
+    "big": "David Meek",
+    "pledgeclass": "Gamma (F'07)",
+    "graduated": true
+  },
+  {
+    "name": "Thaysa Barbera",
+    "big": "Derek Giardino",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "Nico Brown",
+    "big": "Daniel Hernandez",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "Sean Charvet",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "Aaron Costin",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "Morgan (Earnheart) Rodriguez",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "Nicolas Alejandro Gonzalez",
+    "big": "Rylee Pivarnik (Hernandez)",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "John Harrington",
+    "big": "John Repass",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "Kimberly Kilsgaard",
+    "big": "Magno Gil",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "David Morrow",
+    "big": "Jessica Glover (Harris)",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "Tiffany Robinson",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "Dennis Seda",
+    "big": "Hilary Palmer",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "Ramon Urena",
+    "big": "Melissa Piedrahita ",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "Cody Urich ",
+    "big": "Matthew Vinson",
+    "pledgeclass": "Delta (S'08)",
+    "graduated": true
+  },
+  {
+    "name": "David Aniello",
+    "big": "Jaime Gonzales",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Alex Banner",
+    "big": "Magno Gil",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Silvino Bareiros",
+    "big": "Kyle Barber",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Cody Baxley",
+    "big": "Charles Greenberg",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Christopher Boyd",
+    "big": "Thaysa Barbera",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "John Bratos",
+    "big": "Scotty Hickson",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Ahmed Brooks",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Erin Browning",
+    "big": "Rucheli Berry (Cathleen Manville)",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Joseph Carson",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Jon Carver",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Patrick Jory",
+    "big": "Edgar Kidd",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Tanya Kamptapersaud",
+    "big": "David Meek",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Hema Giffin (Kamptaprasad)",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Matthew McCloskey",
+    "big": "Russell Horton",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Andrew Mokris",
+    "big": "Albert Leyte-Vidal",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Rafael Rivera",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "William Sagues",
+    "big": "Kimberly Kilsgaard",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Ralph Sekkel",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "John Seuss",
+    "big": "Michael Grasso",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Nick Szilagyi",
+    "big": "Marcus Geiger",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Juan Vodniza",
+    "big": "Nicolas Alejandro Gonzalez",
+    "pledgeclass": "Epsilon (F'08)",
+    "graduated": true
+  },
+  {
+    "name": "Amisty Ali",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Michael Cooke",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Ashley Desiongco",
+    "big": "Juan Vodniza",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Stacy (Glass) Thornton",
+    "big": "Charles Greenberg",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Marie Guastella",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Alan Hadley",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Andre Hayles",
+    "big": "Megan Hellem",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Terrence Howard",
+    "big": "John Seuss",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Geoffrey Jean",
+    "big": "John Harrington",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Matthew Morin",
+    "big": "Kimberly Kilsgaard",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Brittany (Nottingham) Chapman",
+    "big": "David Morrow",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Ricardo Rodriquez",
+    "big": "Ramon Urena",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Peter Tonner",
+    "pledgeclass": "Zeta (S'09)",
+    "graduated": true
+  },
+  {
+    "name": "Haley Amason",
+    "big": "Silvino Bareiros",
+    "pledgeclass": "Eta (F'09)",
+    "graduated": true
+  },
+  {
+    "name": "Matthew Harrison",
+    "big": "Matthew McCloskey",
+    "pledgeclass": "Eta (F'09)",
+    "graduated": true
+  },
+  {
+    "name": "Shiva Kangoo",
+    "big": "Tanya Kamptapersaud",
+    "pledgeclass": "Eta (F'09)",
+    "graduated": true
+  },
+  {
+    "name": "Jessica McWaters",
+    "big": "Brittany (Nottingham) Chapman",
+    "pledgeclass": "Eta (F'09)",
+    "graduated": true
+  },
+  {
+    "name": "Martin Trang",
+    "big": "Dennis Seda",
+    "pledgeclass": "Eta (F'09)",
+    "graduated": true
+  },
+  {
+    "name": "Andres Silva",
+    "pledgeclass": "Eta (F'09)",
+    "graduated": true
+  },
+  {
+    "name": "Steven Darrow",
+    "pledgeclass": "Theta (S'10)",
+    "graduated": true
+  },
+  {
+    "name": "Anslin Dejueste",
+    "big": "Matthew Harrison",
+    "pledgeclass": "Theta (S'10)",
+    "graduated": true
+  },
+  {
+    "name": "David Letter",
+    "big": "Matthew Morin",
+    "pledgeclass": "Theta (S'10)",
+    "graduated": true
+  },
+  {
+    "name": "Andres Pazmino",
+    "big": "Nicolas Alejandro Gonzalez",
+    "pledgeclass": "Theta (S'10)",
+    "graduated": true
+  },
+  {
+    "name": "Brenton Reppy",
+    "pledgeclass": "Theta (S'10)",
+    "graduated": true
+  },
+  {
+    "name": "TJ Rosario",
+    "pledgeclass": "Theta (S'10)",
+    "graduated": true
+  },
+  {
+    "name": "Bryan Shearon",
+    "big": "Cody Baxley",
+    "pledgeclass": "Theta (S'10)",
+    "graduated": true
+  },
+  {
+    "name": "Michael Zide",
+    "big": "David Aniello",
+    "pledgeclass": "Theta (S'10)",
+    "graduated": true
+  },
+  {
+    "name": "Rebekka Byrnes",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Mackenzie Campbell",
+    "big": "Brittany (Nottingham) Chapman",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Ryan Cannon",
+    "big": "Stacy (Glass) Thornton",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Laura Cano",
+    "big": "Jessica McWaters",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Marybeth Carames",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Sean DelVecchio",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Ian Foster",
+    "big": "Andres Pazmino",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Tanner Hast",
+    "big": "Ricardo Rodriquez",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Kelly (Lai) McGuire",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Krystal Powell",
+    "big": "David Letter",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Linda Rodriquez",
+    "big": "David Morrow",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Ryan Smith",
+    "big": "Shiva Kangoo",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Joshqua Steele",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Cara (Waterbury) Waxman",
+    "pledgeclass": "Iota (F'10)",
+    "graduated": true
+  },
+  {
+    "name": "Johnathan Aird",
+    "big": "Haley Amason",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Vincent Altavilla",
+    "big": "Ricardo Rodriquez",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Eric Alvarez",
+    "big": "Laura Cano",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Joanna Bak",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Ryan Borden",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Joshua Ferris",
+    "big": "Mackenzie Campbell",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Justin Kingsley",
+    "big": "Nicolas Alejandro Gonzalez",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Thais Lage",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Chad Meisel",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Matthew Miller",
+    "big": "Ryan Cannon",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Naoufal Rihani",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Michael Rodriquez",
+    "big": "Martin Trang",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Omar Rodriquez",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Victor Serrano",
+    "big": "Patrick Jory",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Ivan Soto",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "David Vaughn",
+    "big": "Krystal Powell",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Allyson Whitaker",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Donovan J. Williams",
+    "big": "Matthew Harrison",
+    "pledgeclass": "Kappa (S'11)",
+    "graduated": true
+  },
+  {
+    "name": "Monica Bertram",
+    "big": "Terrence Howard",
+    "pledgeclass": "Lambda (F'11)",
+    "graduated": true
+  },
+  {
+    "name": "Stephen Carlisle",
+    "big": "Matthew Harrison",
+    "pledgeclass": "Lambda (F'11)",
+    "graduated": true
+  },
+  {
+    "name": "Shanan Dalton",
+    "big": "David Vaughn",
+    "pledgeclass": "Lambda (F'11)",
+    "graduated": true
+  },
+  {
+    "name": "Ryan Hopkins",
+    "pledgeclass": "Lambda (F'11)",
+    "graduated": true
+  },
+  {
+    "name": "Karen Hoshino Anthony",
+    "pledgeclass": "Lambda (F'11)",
+    "graduated": true
+  },
+  {
+    "name": "Joe Howard",
+    "big": "Vincent Altavilla",
+    "pledgeclass": "Lambda (F'11)",
+    "graduated": true
+  },
+  {
+    "name": "Aman Kataria",
+    "big": "Michael Rodriquez",
+    "pledgeclass": "Lambda (F'11)",
+    "graduated": true
+  },
+  {
+    "name": "Jimmy Lee",
+    "pledgeclass": "Lambda (F'11)",
+    "graduated": true
+  },
+  {
+    "name": "Samantha Lickteig",
+    "big": "Ryan Cannon",
+    "pledgeclass": "Lambda (F'11)",
+    "graduated": true
+  },
+  {
+    "name": "Reid Scarboro",
+    "big": "Justin Kingsley",
+    "pledgeclass": "Lambda (F'11)",
+    "graduated": true
+  },
+  {
+    "name": "Rafael Arvelo",
+    "big": "Patrick Jory",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Alex Carlisle",
+    "big": "Haley Amason",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Artis Ray Coleman",
+    "big": "Donovan J. Williams",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Brandon Frazer",
+    "big": "Joe Howard",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Connor Gilbert",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Michelle (Hawley) Yoder",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Joshua Illes",
+    "big": "Vincent Altavilla",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Ethan Jansen",
+    "big": "Ryan Cannon",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Ellen (Jarvis) DelVecchio",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Daniel Laso",
+    "big": "Samantha Lickteig",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Marlon Mailey",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Nic Monette",
+    "big": "Matthew Miller",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Andres Mujica",
+    "big": "Ashley Desiongco",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Samantha (Riccio) Illes",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Jackson Grant Schleich",
+    "big": "Bryan Shearon",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Sarah Shields",
+    "big": "Michael Rodriquez",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Thomas Reed Stillson",
+    "big": "Krystal Powell",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Sarah (Strauss) Mujica",
+    "big": "Terrence Howard",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Amelia (Strickland) Migliore",
+    "big": "Justin Kingsley",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Kevin Todaro",
+    "big": "Tanner Hast",
+    "pledgeclass": "Mu (S'12)",
+    "graduated": true
+  },
+  {
+    "name": "Grace Beck",
+    "big": "Amelia (Strickland) Migliore",
+    "pledgeclass": "Nu (F'12)",
+    "graduated": true
+  },
+  {
+    "name": "Alan Birmaher",
+    "big": "Ryan Cannon",
+    "pledgeclass": "Nu (F'12)",
+    "graduated": true
+  },
+  {
+    "name": "Amanda Dodson",
+    "pledgeclass": "Nu (F'12)",
+    "graduated": true
+  },
+  {
+    "name": "Bailey Godfrey",
+    "big": "Stacy (Glass) Thornton",
+    "pledgeclass": "Nu (F'12)",
+    "graduated": true
+  },
+  {
+    "name": "Justin Klingenberger",
+    "pledgeclass": "Nu (F'12)",
+    "graduated": true
+  },
+  {
+    "name": "Shreyas Krishna",
+    "pledgeclass": "Nu (F'12)",
+    "graduated": true
+  },
+  {
+    "name": "Victor Manzano",
+    "pledgeclass": "Nu (F'12)",
+    "graduated": true
+  },
+  {
+    "name": "Veronika Nyberg",
+    "big": "Joshua Ferris",
+    "pledgeclass": "Nu (F'12)",
+    "graduated": true
+  },
+  {
+    "name": "Monica (Perez) Catilino",
+    "pledgeclass": "Nu (F'12)",
+    "graduated": true
+  },
+  {
+    "name": "Andrew Trucks",
+    "big": "Brandon Frazer",
+    "pledgeclass": "Nu (F'12)",
+    "graduated": true
+  },
+  {
+    "name": "Shawn Alvarez",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Emily (Anderson) Hadley",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Shawn Edgar",
+    "big": "David Vaughn",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Estella Gong",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Chris Guido",
+    "big": "Krystal Powell",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Hunter Klann",
+    "big": "Alex Carlisle",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Jim Louro",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Quran Monroe",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Priscila Perez",
+    "big": "Grace Beck",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Colburn Schacht",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Daniel Seoane",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Max Sheets",
+    "big": "Joshua Illes",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Daniel Yoder",
+    "big": "Bailey Godfrey",
+    "pledgeclass": "Xi (S'13)",
+    "graduated": true
+  },
+  {
+    "name": "Selena Adams",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Brian Angiel",
+    "big": "Matthew Miller",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Victor Callado",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Hernan Carvajal",
+    "big": "Shawn Edgar",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Manuel De Avila",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Michael Dingman",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Carly Erker",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Megan (Lunsford) Shevlin",
+    "big": "Alex Carlisle",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Sridhar Mullapudi",
+    "big": "Ian Foster",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Brett Nemeroff",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Joseph Ocasio",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Lena Reid",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Devin Smith",
+    "big": "Grace Beck",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Ronen Wolf",
+    "big": "Jackson Grant Schleich",
+    "pledgeclass": "Omicron (F'13)",
+    "graduated": true
+  },
+  {
+    "name": "Esther Amram",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Christopher DiTaranto",
+    "big": "Hernan Carvajal",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Daniel Harris",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Michael Hart",
+    "big": "Artis Ray Coleman",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Francisco Hernandez",
+    "big": "Rafael Arvelo",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Alexander Katsarsky",
+    "big": "Matthew Miller",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Jack Lusk",
+    "big": "David Vaughn",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Raul Mejia Sangiovanni",
+    "big": "Ronen Wolf",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Reid Neureuther",
+    "big": "Andres Mujica",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Ryan O'Hara",
+    "big": "Daniel Laso",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Javier Palomo",
+    "big": "Max Sheets",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Thomas Sustek",
+    "big": "Chris Guido",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "David Wood",
+    "big": "Joe Howard",
+    "pledgeclass": "Pi (S'14)",
+    "graduated": true
+  },
+  {
+    "name": "Miles Agar",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Ahmad Azim",
+    "big": "Shawn Edgar",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Garret Becker",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Kirsten Bloch",
+    "big": "Matthew Miller",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Alexis Bogen",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Bradley Brock",
+    "big": "Joseph Ocasio",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Ramon Jimenez",
+    "big": "Javier Palomo",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Amy Lai",
+    "big": "Grace Beck",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Cristina Maria Larrea",
+    "big": "Ronen Wolf",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Kacey Lother",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Wilfredo Ortiz",
+    "big": "Hernan Carvajal",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Seth Rhodes",
+    "big": "Sarah (Strauss) Mujica",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Hanny Sanchez",
+    "big": "Alan Birmaher",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Amanda Stephan",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Nicole Villegas",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Ajari Winfield",
+    "pledgeclass": "Rho (F'14)",
+    "graduated": true
+  },
+  {
+    "name": "Cole Barcia",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Alvaro Ferrurino",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Dominic Garrity",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Matthew Heimann",
+    "big": "Jackson Grant Schleich",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Haley (Hittel) Katsarsky",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Allison (Kelly) Runyan",
+    "big": "Max Sheets",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Alexis Khalil",
+    "big": "Amy Lai",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Lucas Lage",
+    "big": "Megan (Lunsford) Shevlin",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Carrie McClelland",
+    "big": "Brian Angiel",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Joseph Pizza",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Marta Poveda",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "William Robbins",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Victor Rubin De Celis",
+    "big": "Alan Birmaher",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Jakob Sante",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Andrew Smith",
+    "big": "Christopher DiTaranto",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Torin Vermette",
+    "big": "Andrew Trucks",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Felippe Wancelotti",
+    "big": "Ramon Jimenez",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Matthew Yeatts",
+    "big": "Reid Neureuther",
+    "pledgeclass": "Sigma (S'15)",
+    "graduated": true
+  },
+  {
+    "name": "Mia El-Khazen",
+    "pledgeclass": "Tau (F'15)",
+    "graduated": true
   },
   {
-    "name": "Konrad Niemiec",
-    "big": "Ollie Cunningham",
-    "pledgeclass": "Fall 2014",
+    "name": "Navon Francis",
+    "pledgeclass": "Tau (F'15)",
     "graduated": true
   },
   {
-    "name": "Nick Massoni",
-    "big": "Johnny Gray",
-    "pledgeclass": "Fall 2014",
+    "name": "Luis Jimenez",
+    "pledgeclass": "Tau (F'15)",
     "graduated": true
   },
   {
-    "name": "Anthony Gonzales",
-    "big": "Ryan Kay",
-    "pledgeclass": "Fall 2014",
+    "name": "Sara Geimer",
+    "big": "Kirsten Bloch",
+    "pledgeclass": "Tau (F'15)",
     "graduated": true
   },
   {
-    "name": "Eric Stocker",
-    "big": "Konrad Niemiec",
-    "pledgeclass": "Winter 2015",
+    "name": "David Israwi Yordi",
+    "big": "Daniel Laso",
+    "pledgeclass": "Tau (F'15)",
     "graduated": true
   },
   {
-    "name": "Evan Schulz",
-    "big": "Ryan Eason",
-    "pledgeclass": "Winter 2015",
+    "name": "Sean Khan",
+    "big": "Victor Rubin De Celis",
+    "pledgeclass": "Tau (F'15)",
     "graduated": true
   },
   {
-    "name": "Josh Castro",
-    "big": "Sujith Cherukumilli",
-    "pledgeclass": "Winter 2015",
+    "name": "Emily Maddox",
+    "big": "Andrew Trucks",
+    "pledgeclass": "Tau (F'15)",
     "graduated": true
   },
   {
-    "name": "Justin Park",
-    "big": "Joe Mudy",
-    "pledgeclass": "Winter 2015",
+    "name": "Kent Miguel",
+    "big": "Ahmad Azim",
+    "pledgeclass": "Tau (F'15)",
     "graduated": true
   },
   {
-    "name": "Bryan Chen",
-    "big": "Will Howard",
-    "pledgeclass": "Winter 2015",
-    "graduated": true,
-    "inactive": true
+    "name": "Brigit Murtaugh",
+    "big": "Alexander Katsarsky",
+    "pledgeclass": "Tau (F'15)",
+    "graduated": true
   },
   {
-    "name": "Michael Mellody",
-    "big": "Anthony Chadwick",
-    "pledgeclass": "Spring 2015",
+    "name": "Steven Powers",
+    "pledgeclass": "Tau (F'15)",
     "graduated": true
   },
   {
-    "name": "Nick Perrando",
-    "big": "Johnny Gray",
-    "pledgeclass": "Spring 2015",
+    "name": "Richard Rodriguez",
+    "big": "Max Sheets",
+    "pledgeclass": "Tau (F'15)",
     "graduated": true
   },
   {
-    "name": "Kevin Zhang",
-    "big": "Micah Minchow",
-    "pledgeclass": "Spring 2015",
+    "name": "Eliecer Alejandro Vera",
+    "pledgeclass": "Tau (F'15)",
     "graduated": true
   },
   {
-    "name": "Anthony Song",
-    "big": "Anthony Chadwick",
-    "pledgeclass": "Fall 2015",
+    "name": "Grace Yoo",
+    "big": "Hanny Sanchez",
+    "pledgeclass": "Tau (F'15)",
     "graduated": true
   },
   {
-    "name": "Owen Bradley",
-    "big": "Michael Say",
-    "pledgeclass": "Fall 2015",
+    "name": "Annette Barboza",
+    "big": "Cristina Maria Larrea",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Abraham Lopez",
-    "big": "Andrew Alas",
-    "pledgeclass": "Fall 2015",
+    "name": "Cecilie Barreto",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Nick Clarke",
-    "big": "Konrad Niemiec",
-    "pledgeclass": "Fall 2015",
+    "name": "Melissa Doan",
+    "big": "Alexander Katsarsky",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Christian Morgan",
-    "big": "Frank Wathen",
-    "pledgeclass": "Fall 2015",
+    "name": "Tina Figueras",
+    "big": "Alexis Khalil",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Will Graves",
-    "big": "Justin Miller",
-    "pledgeclass": "Fall 2015",
+    "name": "Kayla Freudenberger",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Karl Spires",
-    "big": "Paul Wason",
-    "pledgeclass": "Fall 2015",
-    "graduated": true,
-    "inactive": true
+    "name": "Richie Galasso",
+    "big": "Kimberly Kilsgaard",
+    "pledgeclass": "Upsilon (S'16)",
+    "graduated": true
   },
   {
-    "name": "Ian Derr",
-    "big": "Joe Ryu",
-    "pledgeclass": "Fall 2015",
+    "name": "Matthew Gutman",
+    "big": "Torin Vermette",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "JP Finkelstein",
-    "big": "Mitchell Bendersky",
-    "pledgeclass": "Fall 2015",
+    "name": "Cody LaBossiere",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Erick Gutierrez",
-    "big": "Johnny Gray",
-    "pledgeclass": "Fall 2015",
+    "name": "Makayla Lourcey",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Taylor Munoz",
-    "big": "Blake Bergstrom",
-    "pledgeclass": "Fall 2015",
+    "name": "Gabrielle Michaels",
+    "big": "Brian Angiel",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Andre Khosrovian",
-    "big": "Micah Minchow",
-    "pledgeclass": "Fall 2015",
+    "name": "John Milavec",
+    "big": "Joseph Ocasio",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Connor Sullivan",
-    "big": "Nick Massoni",
-    "pledgeclass": "Fall 2015",
+    "name": "Kenneth Mitchell",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "James Marino",
-    "big": "Mitchell Bendersky",
-    "pledgeclass": "Winter 2016",
+    "name": "Thomas Pring",
+    "big": "Raul Mejia Sangiovanni",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Austin Berke",
-    "big": "JP Finkelstein",
-    "pledgeclass": "Winter 2016",
+    "name": "Melinda Ramos",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Stephen Saltvig",
-    "big": "Victor Yu",
-    "pledgeclass": "Winter 2016",
+    "name": "Logan Rossi",
+    "big": "Felippe Wancelotti",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Ian Vaimberg",
-    "big": "Anthony Cheung",
-    "pledgeclass": "Winter 2016",
+    "name": "Justin Rudisal",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Jerin Tomy",
-    "big": "Andrew Alas",
-    "pledgeclass": "Winter 2016",
+    "name": "Ryan Schiller",
+    "big": "Bradley Brock",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Steven Prado",
-    "big": "Kareem Barghouthi",
-    "pledgeclass": "Winter 2016",
+    "name": "Juliet Sharpe",
+    "big": "Carrie McClelland",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Aaron Van Doren",
-    "big": "Eric Stocker",
-    "pledgeclass": "Spring 2016",
+    "name": "Kyle Singh",
+    "big": "Victor Rubin De Celis",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Shantam Jain",
-    "big": "Micah Minchow",
-    "pledgeclass": "Spring 2016",
+    "name": "Scott Suarez",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Ananh Onevathana",
-    "big": "Kareem Barghouthi",
-    "pledgeclass": "Spring 2016",
+    "name": "Jenny Vanaselja",
+    "big": "Kirsten Bloch",
+    "pledgeclass": "Upsilon (S'16)",
     "graduated": true
   },
   {
-    "name": "Danny Netzer",
-    "big": "JP Finkelstein",
-    "pledgeclass": "Spring 2016",
+    "name": "Matheus Antonio",
+    "big": "Matthew Yeatts",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Gokberk Unal",
-    "big": "Konrad Niemiec",
-    "pledgeclass": "Spring 2016",
+    "name": "Jessica Carlson",
+    "big": "Emily Maddox",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Evan Gentry",
-    "big": "Niko Pappas",
-    "pledgeclass": "Spring 2016",
+    "name": "Milan Castro",
+    "big": "Christopher DiTaranto",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Peyton Cotto",
-    "big": "Andrew Alas",
-    "pledgeclass": "Fall 2016",
+    "name": "Raul Colon",
+    "big": "Torin Vermette",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Bruce Kasra",
-    "big": "Tyler Suh",
-    "pledgeclass": "Fall 2016",
+    "name": "Christian Coury",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Karim Zia",
-    "big": "Nick Clarke",
-    "pledgeclass": "Fall 2016",
+    "name": "Kenzie Fleming",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Clayton Ho",
-    "big": "Shantam Jain",
-    "pledgeclass": "Fall 2016"
+    "name": "Removed",
+    "pledgeclass": "Phi (F'16)",
+    "graduated": true
   },
   {
-    "name": "Alexander Hurley",
-    "big": "Evan Schulz",
-    "pledgeclass": "Fall 2016",
+    "name": "Jourdain Francis",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Jack Wu",
-    "big": "Anthony Chadwick",
-    "pledgeclass": "Fall 2016",
+    "name": "Michael Fronda",
+    "big": "Richard Rodriguez",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Alex Sun",
-    "big": "Abraham Lopez",
-    "pledgeclass": "Fall 2016",
-    "inactive": true
+    "name": "Josue Fuentes",
+    "big": "Francisco Hernandez",
+    "pledgeclass": "Phi (F'16)",
+    "graduated": true
   },
   {
-    "name": "Lavi Paoletti",
-    "big": "Ian Vaimberg",
-    "pledgeclass": "Fall 2016"
+    "name": "Tyler Howell",
+    "pledgeclass": "Phi (F'16)",
+    "graduated": true
   },
   {
-    "name": "Danny Sullivan",
-    "big": "Christian Morgan",
-    "pledgeclass": "Fall 2016",
-    "inactive": true
+    "name": "Priyank Krishnamoorthi",
+    "pledgeclass": "Phi (F'16)",
+    "graduated": true
   },
   {
-    "name": "Nick Edman",
-    "big": "Justin Park",
-    "pledgeclass": "Fall 2016",
+    "name": "John Kewley",
+    "big": "Ryan Schiller",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Craig Buchholz",
-    "big": "Eric Stocker",
-    "pledgeclass": "Fall 2016",
+    "name": "Kendall Mackey",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Christian Garcia",
-    "big": "Anthony Gonzales",
-    "pledgeclass": "Fall 2016",
+    "name": "Jose Pena",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Ari Sweedler",
-    "big": "Blake Bergstrom",
-    "pledgeclass": "Fall 2016"
+    "name": "Angelo Piccinone",
+    "big": "Seth Rhodes",
+    "pledgeclass": "Phi (F'16)",
+    "graduated": true
   },
   {
-    "name": "Chris Toubia",
-    "big": "Anthony Cheung",
-    "pledgeclass": "Fall 2016",
+    "name": "Justin Powell",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Evan Oneto",
-    "big": "Anthony Song",
-    "pledgeclass": "Fall 2016",
-    "inactive": true
+    "name": "Stephen Rey",
+    "big": "Matthew Gutman",
+    "pledgeclass": "Phi (F'16)",
+    "graduated": true
   },
   {
-    "name": "Spencer Ytuarte",
-    "big": "Eric Stocker",
-    "pledgeclass": "Fall 2016",
+    "name": "Jeff Saintelus",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Nikhil Bhardwaja",
-    "big": "Anthony Song",
-    "pledgeclass": "Winter 2017"
+    "name": "Daniela Scavino",
+    "big": "Cristina Maria Larrea",
+    "pledgeclass": "Phi (F'16)",
+    "graduated": true
   },
   {
-    "name": "Miguel Cabrales",
-    "big": "Christian Garcia",
-    "pledgeclass": "Winter 2017"
+    "name": "Jonathan Sepulveda",
+    "pledgeclass": "Phi (F'16)",
+    "graduated": true
   },
   {
-    "name": "Grant Bennett",
-    "big": "Craig Buchholz",
-    "pledgeclass": "Winter 2017"
+    "name": "Nicholas Smith",
+    "big": "Shawn Edgar",
+    "pledgeclass": "Phi (F'16)",
+    "graduated": true
   },
   {
-    "name": "Abhinava Shriraam",
-    "big": "Karim Zia",
-    "pledgeclass": "Winter 2017",
+    "name": "Carole Wolfe",
+    "big": "Annette Barboza",
+    "pledgeclass": "Phi (F'16)",
     "graduated": true
   },
   {
-    "name": "Tiger Yip",
-    "big": "Bruce Kasra",
-    "pledgeclass": "Winter 2017",
-    "inactive": true
+    "name": "Ryan Banos",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Mark Shihady",
-    "big": "Andre Khosrovian",
-    "pledgeclass": "Spring 2017",
+    "name": "Christopher Barrett",
+    "big": "Raul Mejia Sangiovanni",
+    "pledgeclass": "Chi (S'17)",
     "graduated": true
   },
   {
-    "name": "Will Lee",
-    "big": "Eric Stocker",
-    "pledgeclass": "Spring 2017"
+    "name": "Michael Cesta",
+    "big": "Matthew Yeatts",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Tyler Packham",
-    "big": "Steven Prado",
-    "pledgeclass": "Spring 2017"
+    "name": "Kevin Doan",
+    "big": "Michael Fronda",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Devin Lawson",
-    "big": "Karl Spires",
-    "pledgeclass": "Spring 2017",
+    "name": "Joshua Easterday",
+    "pledgeclass": "Chi (S'17)",
     "graduated": true
   },
   {
-    "name": "Christian Stroude",
-    "big": "Ari Sweedler",
-    "pledgeclass": "Spring 2017",
-    "inactive": true
+    "name": "Casey Guarasci",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Jerry He",
-    "big": "Kevin Zhang",
-    "pledgeclass": "Spring 2017",
+    "name": "Emily Johansen",
+    "big": "Kayla Freudenberger",
+    "pledgeclass": "Chi (S'17)",
     "graduated": true
   },
   {
-    "name": "Danny Lima",
-    "big": "Abraham Lopez",
-    "pledgeclass": "Spring 2017",
+    "name": "Andrew Johnson",
+    "pledgeclass": "Chi (S'17)",
     "graduated": true
   },
   {
-    "name": "Alex Garcia",
-    "big": "Nick Edman",
-    "pledgeclass": "Spring 2017"
+    "name": "Thomas Lopez",
+    "big": "Shawn Edgar",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Alex Tenorio",
-    "big": "Connor Sullivan",
-    "pledgeclass": "Fall 2017",
+    "name": "Daniel Martel",
+    "pledgeclass": "Chi (S'17)",
     "graduated": true
   },
   {
-    "name": "Andrew Boghossian",
-    "big": "Ian Derr",
-    "pledgeclass": "Fall 2017",
+    "name": "Lauren Martinez",
+    "big": "Jenny Vanaselja",
+    "pledgeclass": "Chi (S'17)",
     "graduated": true
   },
   {
-    "name": "Blake Hirst",
-    "big": "Nick Edman",
-    "pledgeclass": "Fall 2017"
+    "name": "Adrian Molinari",
+    "big": "Alexis Khalil",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Charles Stoksik",
-    "big": "Clayton Ho",
-    "pledgeclass": "Fall 2017",
-    "inactive": true
+    "name": "Dalton Monce",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Elliott Santos",
-    "big": "Miguel Cabrales",
-    "pledgeclass": "Fall 2017"
+    "name": "Rachel Moorhead",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Jose Perez",
-    "big": "Stephen Saltvig",
-    "pledgeclass": "Fall 2017"
+    "name": "Removed",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Julian Adam",
-    "big": "Nikhil Bhardwaja",
-    "pledgeclass": "Fall 2017"
+    "name": "Ryan Nicholls",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Kenny Nicholson",
-    "big": "Craig Buchholz",
-    "pledgeclass": "Fall 2017",
+    "name": "Kevin Pastrano",
+    "big": "Nicolas Alejandro Gonzalez",
+    "pledgeclass": "Chi (S'17)",
     "graduated": true
   },
   {
-    "name": "Brandon Achugbue",
-    "big": "Alex Sun",
-    "pledgeclass": "Fall 2017",
-    "inactive": true
+    "name": "Fernando Valdes-Recio",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Brandon Kim",
-    "big": "Peyton Cotto",
-    "pledgeclass": "Fall 2017",
+    "name": "Haydn Turner",
+    "big": "Logan Rossi",
+    "pledgeclass": "Chi (S'17)",
     "graduated": true
   },
   {
-    "name": "Connor Tinsley",
-    "big": "Grant Bennett",
-    "pledgeclass": "Fall 2017"
+    "name": "Justin Wu",
+    "pledgeclass": "Chi (S'17)",
+    "graduated": true
   },
   {
-    "name": "Jack Feder",
-    "big": "Danny Lima",
-    "pledgeclass": "Fall 2017"
+    "name": "Garrett Anderson",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Justin Tonascia",
-    "big": "Nick Clarke",
-    "pledgeclass": "Fall 2017"
+    "name": "Grant Austin",
+    "big": "Nicholas Smith",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Liam Hurley",
-    "big": "Evan Gentry",
-    "pledgeclass": "Fall 2017"
+    "name": "Manisha Ayyagari",
+    "big": "Lauren Martinez",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Ram Ayyala",
-    "big": "Konrad Niemiec",
-    "pledgeclass": "Fall 2017"
+    "name": "Alex Busot",
+    "big": "Matthew Gutman",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Sebastian Haworth",
-    "big": "Ari Sweedler",
-    "pledgeclass": "Fall 2017",
-    "inactive": true
+    "name": "Nick Cosola",
+    "big": "Grace Beck",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Justin Hatch",
-    "big": "Danny Lima",
-    "pledgeclass": "Winter 2018"
+    "name": "Gustavo Duarte",
+    "big": "David Israwi Yordi",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Bryan Ding",
-    "big": "Abhinava Shriraam",
-    "pledgeclass": "Winter 2018",
-    "inactive": true
+    "name": "Shaye Glover",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Jerald Scott",
-    "big": "Alex Garcia",
-    "pledgeclass": "Winter 2018",
-    "inactive": true
+    "name": "Bobby Hughes",
+    "big": "Shawn Edgar",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Yash Shah",
-    "big": "Ian Vaimberg",
-    "pledgeclass": "Winter 2018"
+    "name": "Ben Infantino",
+    "big": "Francisco Hernandez",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Jack Arnold",
-    "big": "Blake Hirst",
-    "pledgeclass": "Winter 2018"
+    "name": "Sam Kleespies",
+    "big": "Kevin Doan",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Matthew Go",
-    "big": "Charles Stoksik",
-    "pledgeclass": "Winter 2018"
+    "name": "Varnika Kuthuru",
+    "big": "Brigit Murtaugh",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Edvin Pepic",
-    "big": "Alexander Hurley",
-    "pledgeclass": "Winter 2018",
-    "inactive": true
+    "name": "Ariadna Marin",
+    "big": "Kimberly Kilsgaard",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Jonathan Schultz",
-    "big": "Kenny Nicholson",
-    "pledgeclass": "Spring 2018"
+    "name": "Nicholas Martin",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Cameron Saneii",
-    "big": "Brandon Kim",
-    "pledgeclass": "Spring 2018",
+    "name": "Chris McGuinness",
+    "pledgeclass": "Psi (F'17)",
     "graduated": true
   },
   {
-    "name": "Dante Bruno",
-    "big": "Connor Sullivan",
-    "pledgeclass": "Spring 2018",
-    "inactive": true
+    "name": "Roberto Navarro",
+    "big": "Kayla Freudenberger",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Jake Arakawa",
-    "big": "Danny Lima",
-    "pledgeclass": "Fall 2018"
+    "name": "Removed",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Armin Khanpour",
-    "big": "Clayton Ho",
-    "pledgeclass": "Fall 2018",
+    "name": "Henry Richardson Jr.",
+    "pledgeclass": "Psi (F'17)",
     "graduated": true
   },
   {
-    "name": "Zach Wrubel",
-    "big": "Elliott Santos",
-    "pledgeclass": "Fall 2018"
+    "name": "Adrian Ruiz",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Daniel Nouri",
-    "big": "Connor Tinsley",
-    "pledgeclass": "Fall 2018"
+    "name": "Jeff Shiflett",
+    "big": "Ryan O'Hara",
+    "pledgeclass": "Psi (F'17)",
+    "graduated": true
   },
   {
-    "name": "Bryce Fenenbock",
-    "big": "Julian Adam",
-    "pledgeclass": "Fall 2018"
+    "name": "Matt Albro",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "David Crofton",
-    "big": "Jack Arnold",
-    "pledgeclass": "Fall 2018"
+    "name": "Philip Bettler",
+    "big": "Brigit Murtaugh",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Justin Guseman",
-    "big": "Blake Hirst",
-    "pledgeclass": "Fall 2018"
+    "name": "William Blount",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Alan Zisman",
-    "big": "Karim Zia",
-    "pledgeclass": "Fall 2018",
-    "inactive": true
+    "name": "Raymond Chenoweth",
+    "big": "Emily Johansen",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Jack Gobel",
-    "big": "Chris Toubia",
-    "pledgeclass": "Fall 2018"
+    "name": "Karla Escobar",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Lucas Everett",
-    "big": "Christian Garcia",
-    "pledgeclass": "Fall 2018"
+    "name": "Ellie Lane",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Julian Uy",
-    "big": "Taylor Munoz",
-    "pledgeclass": "Fall 2018"
+    "name": "Jake Margerum",
+    "big": "Torin Vermette",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Gordon Kuang",
-    "big": "Miguel Cabrales",
-    "pledgeclass": "Fall 2018"
+    "name": "Jose Martinez",
+    "big": "Michael Fronda",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Kevin Peng",
-    "big": "Will Lee",
-    "pledgeclass": "Fall 2018"
+    "name": "Taylor Meek",
+    "big": "Stephen Rey",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Brennan Steggink",
-    "big": "Devin Lawson",
-    "pledgeclass": "Fall 2018"
+    "name": "Dominik Moatamedi",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Collin Shore",
-    "big": "Justin Hatch",
-    "pledgeclass": "Fall 2018"
+    "name": "Emma Parrish",
+    "big": "Felippe Wancelotti",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "John Webster",
-    "big": "Jack Feder",
-    "pledgeclass": "Fall 2018"
+    "name": "Adriana Sasso",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Michael Pacult",
-    "big": "Stephen Saltvig",
-    "pledgeclass": "Fall 2018",
-    "inactive": true
+    "name": "Brian Smith",
+    "big": "Kevin Doan",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Nate Mailhot",
-    "big": "Matthew Go",
-    "pledgeclass": "Fall 2018"
+    "name": "Quentin Stone",
+    "big": "Christopher Barrett",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Jimmy Varos",
-    "big": "Cameron Saneii",
-    "pledgeclass": "Winter 2019"
+    "name": "Lindsey Strembicki",
+    "big": "Jenny Vanaselja",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Alex Tam",
-    "big": "Kenny Nicholson",
-    "pledgeclass": "Winter 2019"
+    "name": "Holland Weaver",
+    "big": "Matthew Yeatts",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Jacob Von Winckelmann",
-    "big": "Jonathan Schultz",
-    "pledgeclass": "Winter 2019"
+    "name": "Connor Whitley",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Brandon Bettinger",
-    "big": "Nikhil Bhardwaja",
-    "pledgeclass": "Winter 2019"
+    "name": "Sara Young",
+    "pledgeclass": "Omega (S'18)",
+    "graduated": true
   },
   {
-    "name": "Jason Maikis",
-    "big": "Connor Tinsley",
-    "pledgeclass": "Winter 2019",
-    "inactive": true
+    "name": "Ben Griffin",
+    "big": "Torin Vermette",
+    "pledgeclass": "Zeta Gamma Chapter",
+    "graduated": true
   },
   {
-    "name": "Sahith Obbu",
-    "big": "Liam Hurley",
-    "pledgeclass": "Winter 2019"
+    "name": "Mpho Cho",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Zach Moss",
-    "big": "Alex Garcia",
-    "pledgeclass": "Spring 2019"
+    "name": "JoAnna Cohen",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Rutik Shinglot",
-    "big": "Alex Garcia",
-    "pledgeclass": "Spring 2019"
+    "name": "Annika Gates",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Vishal Narayan",
-    "big": "Jack Feder",
-    "pledgeclass": "Spring 2019"
+    "name": "William Kale Gibson",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Ravi Varma",
-    "big": "Charles Stoksik",
-    "pledgeclass": "Spring 2019"
+    "name": "Alex Hillegass",
+    "big": "Brian Smith",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Alec Marcellin",
-    "big": "Rutik Shinglot",
-    "pledgeclass": "Fall 2019"
+    "name": "Marcos Jayo",
+    "big": "Nick Cosola",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Andrew Chrissan",
-    "big": "Miguel Cabrales",
-    "pledgeclass": "Fall 2019"
+    "name": "Hauen Kim",
+    "big": "Melissa Doan",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Barrett Mcrae",
-    "big": "Jack Arnold",
-    "pledgeclass": "Fall 2019"
+    "name": "Uziel Lavine",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "CJ Ezratty",
-    "big": "Lucas Everett",
-    "pledgeclass": "Fall 2019"
+    "name": "Adriana Lopez",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Edgard Aleman",
-    "big": "Kevin Peng",
-    "pledgeclass": "Fall 2019"
+    "name": "Jordan Lopez",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Ishaan Shah",
-    "big": "Ram Ayyala",
-    "pledgeclass": "Fall 2019"
+    "name": "Sofia Orta",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Josh Perez",
-    "big": "Jacob Von Winckelmann",
-    "pledgeclass": "Fall 2019"
+    "name": "Issac Ortiz",
+    "big": "Alex Busot",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Jun Ho Park",
-    "big": "Brandon Bettinger",
-    "pledgeclass": "Fall 2019"
+    "name": "Hanna Quinn",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Kade Adams",
-    "big": "Ari Sweedler",
-    "pledgeclass": "Fall 2019"
+    "name": "Aubree Rivera",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Louie Leavitt",
-    "big": "Nate Mailhot",
-    "pledgeclass": "Fall 2019"
+    "name": "America Sanchez",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Luke Walker",
-    "big": "Alex Tam",
-    "pledgeclass": "Fall 2019"
+    "name": "Christian Steiner",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Max McNeal",
-    "big": "Elliott Santos",
-    "pledgeclass": "Fall 2019"
+    "name": "Anton Strickland",
+    "big": "Alexis Khalil",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Michael Singer",
-    "big": "Zach Wrubel",
-    "pledgeclass": "Fall 2019"
+    "name": "Andrew Turpin",
+    "big": "Alexis Khalil",
+    "pledgeclass": "Gamma Beta (F'18)",
+    "graduated": true
   },
   {
-    "name": "Max Sicherman",
-    "big": "Julian Uy",
-    "pledgeclass": "Fall 2019"
+    "name": "Gary Bautista",
+    "big": "Grant Austin",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Shail Avasthi",
-    "big": "Justin Guseman",
-    "pledgeclass": "Fall 2019"
+    "name": "Kaitlyn Brown",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Will Tucker",
-    "big": "Blake Hirst",
-    "pledgeclass": "Fall 2019"
+    "name": "Julia Da Silva",
+    "big": "Brian Smith",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Jordany Zamor",
-    "big": "David Crofton",
-    "pledgeclass": "Winter 2020"
+    "name": "Victor Dittrich",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Cameron Dorais",
-    "big": "Jack Arnold",
-    "pledgeclass": "Winter 2020"
+    "name": "Mathieu Gomez",
+    "big": "Raymond Chenoweth",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Adrian Alavez",
-    "big": "Alex Tam",
-    "pledgeclass": "Winter 2020"
+    "name": "Ernest Gonzalez",
+    "big": "Alexis Khalil",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Agam Bedi",
-    "big": "Jun Ho Park",
-    "pledgeclass": "Winter 2020"
+    "name": "John Hatchitt",
+    "big": "Taylor Meek",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Alex Mora",
-    "big": "Sahith Obbu",
-    "pledgeclass": "Winter 2020"
+    "name": "Garrett Hollar",
+    "big": "Brigit Murtaugh",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Dylan Melnick",
-    "big": "Blake Hirst",
-    "pledgeclass": "Winter 2020"
+    "name": "Ruben Ledezma",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "John Lee",
-    "big": "Gordon Kuang",
-    "pledgeclass": "Winter 2020"
+    "name": "Hannah Moss",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Austin Pham",
-    "big": "Collin Shore",
-    "pledgeclass": "Winter 2020"
+    "name": "Andrea Mungroo",
+    "big": "Alexis Khalil",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Raj Padmanaban",
-    "big": "Ram Ayyala",
-    "pledgeclass": "Winter 2020"
+    "name": "Removed",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Max Dallas",
-    "big": "Max Sicherman",
-    "pledgeclass": "Winter 2020"
+    "name": "Brianna Shelton",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Sam Kaseff",
-    "big": "Julian Uy",
-    "pledgeclass": "Winter 2020"
+    "name": "Eric Smith",
+    "big": "Philip Bettler",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Julian Hamama",
-    "big": "Ari Sweedler",
-    "pledgeclass": "Winter 2020"
+    "name": "Trey Sneeringer",
+    "big": "Bobby Hughes",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Bennett North",
-    "big": "Bryce Fenenbock",
-    "pledgeclass": "Winter 2020"
+    "name": "Liam Tirney",
+    "big": "Jeff Shiflett",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Alvin Hadley",
-    "big": "Max Dallas",
-    "pledgeclass": "Fall 2020"
+    "name": "Juliana Voelker",
+    "big": "Gustavo Duarte",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Josh Eidam",
-    "big": "Agam Bedi",
-    "pledgeclass": "Fall 2020"
+    "name": "Dawson Wells",
+    "big": "Nick Cosola",
+    "pledgeclass": "Delta Beta (S'19)",
+    "graduated": true
   },
   {
-    "name": "Chris Bieberich",
-    "big": "Max Sicherman",
-    "pledgeclass": "Fall 2020"
+    "name": "Varadha Anandakumar",
+    "big": "Ernest Gonzalez",
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
-    "name": "Andrew Luff",
-    "big": "Jordany Zamor",
-    "pledgeclass": "Fall 2020"
+    "name": "Lindsay Arick",
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
-    "name": "Mike Zhan",
-    "big": "Ravi Varma",
-    "pledgeclass": "Fall 2020"
+    "name": "Kaitlyn Bowman",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Jackson Weldon",
-    "big": "Cameron Dorais",
-    "pledgeclass": "Winter 2021"
+    "name": "Removed",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Rolando Bonilla",
-    "big": "Alec Marcellin",
-    "pledgeclass": "Winter 2021"
+    "name": "Jared Eckert",
+    "big": "Liam Tirney",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Kyle Cota",
-    "big": "Jordany Zamor",
-    "pledgeclass": "Winter 2021"
+    "name": "Anusha Gan Chowdhury",
+    "big": "America Sanchez",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Josh Ico",
-    "big": "Kade Adams",
-    "pledgeclass": "Winter 2021"
+    "name": "Roger Guerrero",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Kanoa King",
-    "big": "Zach Wrubel",
-    "pledgeclass": "Winter 2021"
+    "name": "Arthur Henry",
+    "big": "Eric Smith",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Ryan Alomair",
-    "big": "Vishal Narayan",
-    "pledgeclass": "Winter 2021"
+    "name": "Caitlyn Lucey",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Rishi Ray",
-    "big": "Ravi Varma",
-    "pledgeclass": "Winter 2021"
+    "name": "Nathan Nimbargi",
+    "big": "Jeff Shiflett",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Zach Reddy",
-    "big": "CJ Ezratty",
-    "pledgeclass": "Winter 2021"
+    "name": "Alexander Parady",
+    "big": "Roberto Navarro",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Charles Whitcomb",
-    "big": "Dylan Melnick",
-    "pledgeclass": "Winter 2021"
+    "name": "Ryan Parker",
+    "big": "Kaileyann Rodriguez",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "David McFall",
-    "big": "Alex Tam",
-    "pledgeclass": "Spring 2021"
+    "name": "Pujan Patel",
+    "big": "Kevin Pastrano",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Griffin Gowdy",
-    "big": "Alec Marcellin",
-    "pledgeclass": "Spring 2021"
+    "name": "Iris Peterson",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Ian Geertsen",
-    "big": "Jordany Zamor",
-    "pledgeclass": "Spring 2021"
+    "name": "Matheson Prather",
+    "big": "Alex Busot",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Joshua Abrams",
-    "big": "Charles Whitcomb",
-    "pledgeclass": "Spring 2021"
+    "name": "Max Reiver",
+    "big": "Nick Cosola",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Troy Hillman",
-    "big": "Cameron Dorais",
-    "pledgeclass": "Spring 2021"
+    "name": "Andrew Remmers",
+    "big": "Grant Austin",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Jonathan Conrad",
-    "big": "Adrian Alavez",
-    "pledgeclass": "Fall 2021"
+    "name": "Carlos Ricoveri",
+    "pledgeclass": "Epsilon Beta (F'19)"
   },
   {
-    "name": "Teddy Caligiuri",
-    "big": "Luke Walker",
-    "pledgeclass": "Fall 2021"
+    "name": "Fadi Alhihi",
+    "big": "John Hatchitt",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Cole McQuinn",
-    "big": "Max Dallas",
-    "pledgeclass": "Fall 2021"
+    "name": "Gregory Allen",
+    "big": "Kaileyann Rodriguez",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Ryan McWhorter",
-    "big": "Josh Eidam",
-    "pledgeclass": "Fall 2021"
+    "name": "Katheryn Berndt",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Judah Chambers",
-    "big": "Andrew Luff",
-    "pledgeclass": "Fall 2021"
+    "name": "Daniel Biller",
+    "big": "Trey Sneeringer",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Ayden Mackenzie",
-    "big": "Andrew Luff",
-    "pledgeclass": "Fall 2021"
+    "name": "Cristina Costin",
+    "big": "Lindsey Strembicki",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Kyle Almon",
-    "big": "Bryce Fenenbock",
-    "pledgeclass": "Fall 2021"
+    "name": "Aaron Crawford",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Jared Patel",
-    "big": "Max Sicherman",
-    "pledgeclass": "Fall 2021"
+    "name": "Michael Diaz",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Micah Resnick Crook",
-    "big": "Bennett North",
-    "pledgeclass": "Fall 2021"
+    "name": "Alec DiLiello",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Dawson Taylor ",
-    "big": "Zach Reddy",
-    "pledgeclass": "Fall 2021"
+    "name": "Martin Granger",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Parth Doshi",
-    "big": "Alex Tam",
-    "pledgeclass": "Fall 2021"
+    "name": "Erik Guier",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Tucker Waters",
-    "big": "Charles Whitcomb",
-    "pledgeclass": "Fall 2021"
+    "name": "Jacob Hagan",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Aidan Cone",
-    "big": "Kanoa King",
-    "pledgeclass": "Fall 2021"
+    "name": "Mackenzie Harrod",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Ian Fu",
-    "big": "Kanoa King",
-    "pledgeclass": "Fall 2021"
+    "name": "Joshua Meyer",
+    "big": "Andrew Turpin",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Eric Fritz",
-    "big": "Louie Leavitt",
-    "pledgeclass": "Fall 2021"
+    "name": "Lauren Paffrath",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Irfan Lin",
-    "big": "Jordany Zamor",
-    "pledgeclass": "Fall 2021"
+    "name": "Alexis Schons",
+    "big": "Eric Smith",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Johnny Bhaskar",
-    "big": "Jordany Zamor",
-    "pledgeclass": "Fall 2021"
+    "name": "Jacob Shoemaker",
+    "big": "Mathieu Gomez",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Brian Taylor",
-    "big": "Shail Avasthi",
-    "pledgeclass": "Fall 2021"
+    "name": "Ryan Strembicki",
+    "big": "Ben Griffin",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Brendan McMahon",
-    "big": "Max McNeal",
-    "pledgeclass": "Fall 2021"
+    "name": "Giovanni Wancelotti",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Kody Lamb",
-    "big": "Ravi Varma",
-    "pledgeclass": "Fall 2021"
+    "name": "Vanessa Willis",
+    "pledgeclass": "Zeta Beta (S'20)"
   },
   {
-    "name": "Ben Kase",
-    "big": "Andrew Chrissan",
-    "pledgeclass": "Fall 2021"
+    "name": "Jenna Bates",
+    "big": "Andrew Turpin",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Peter DePaul",
-    "big": "Andrew Chrissan",
-    "pledgeclass": "Fall 2021"
+    "name": "Trevor Bernstein",
+    "big": "Ben Griffin",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Ishaan Garg",
-    "big": "Vishal Narayan",
-    "pledgeclass": "Fall 2021"
+    "name": "Tomasin Brennan",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Ken Matsunaga",
-    "big": "Rutik Shinglot",
-    "pledgeclass": "Fall 2021"
+    "name": "Hunter Davis",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Shail Mirpuri",
-    "big": "CJ Ezratty",
-    "pledgeclass": "Fall 2021"
+    "name": "Pauline Johnson",
+    "big": "America Sanchez",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Spencer Stice",
-    "big": "Sam Kaseff",
-    "pledgeclass": "Fall 2021"
+    "name": "Laila Khalil",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Jacob Nanquil",
-    "big": "Josh Perez",
-    "pledgeclass": "Fall 2021"
+    "name": "Ellie Kozlowski",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Gio Villalobos",
-    "big": "Josh Perez",
-    "pledgeclass": "Fall 2021"
+    "name": "Emily Levinson",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Marcus Orwin",
-    "big": "Chris Bieberich",
-    "pledgeclass": "Fall 2021"
+    "name": "Rebecca Perkins",
+    "big": "Cristina Costin",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Evan Schneider",
-    "big": "Chris Bieberich",
-    "pledgeclass": "Fall 2021"
+    "name": "Frank Puzzini",
+    "big": "Julia Da Silva",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "John Reinker",
-    "big": "Shail Avasthi",
-    "pledgeclass": "Fall 2021"
+    "name": "Christopher Schiavino",
+    "big": "Jared Eckert",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Caden Tien",
-    "big": "Michael Singer",
-    "pledgeclass": "Fall 2021"
+    "name": "Lily Sigg",
+    "big": "Varadha Anandakumar",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Oliver Whalen",
-    "big": "Rolando Bonilla",
-    "pledgeclass": "Fall 2021"
+    "name": "Anthony Villegas",
+    "big": "Pujan Patel",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Antwan Adams",
-    "big": "Rolando Bonilla",
-    "pledgeclass": "Fall 2021"
+    "name": "Clayton Williams",
+    "big": "Ryan Strembicki",
+    "pledgeclass": "Eta Beta (S'21)"
   },
   {
-    "name": "Colin McMahon",
-    "big": "Ryan Alomair",
-    "pledgeclass": "Fall 2021"
+    "name": "Matias Barzallo",
+    "big": "Anthony Villegas",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Matthew Marsh",
-    "big": "Ryan Alomair",
-    "pledgeclass": "Fall 2021"
+    "name": "Marcello Botelho",
+    "big": "Trevor Bernstein",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Kent Bourgoing",
-    "big": "Adrian Alavez",
-    "pledgeclass": "Winter 2022"
+    "name": "Max Collingwood",
+    "big": "Jared Eckert",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Quinn Hilger",
-    "big": "Rolando Bonilla",
-    "pledgeclass": "Winter 2022"
+    "name": "Lauren Deering",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Sam Peterson",
-    "big": "Kyle Almon",
-    "pledgeclass": "Winter 2022"
+    "name": "Jake Dorfman",
+    "big": "Lily Sigg",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Carter Wink",
-    "big": "Jackson Weldon",
-    "pledgeclass": "Winter 2022"
+    "name": "Jonathan Douglas",
+    "big": "Andrew Turpin",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Kaelan Van Cleef",
-    "big": "Judah Chambers",
-    "pledgeclass": "Winter 2022"
+    "name": "Yousef Edwards",
+    "big": "Pujan Patel",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Isaac Chettiath",
-    "big": "Andrew Chrissan",
-    "pledgeclass": "Winter 2022"
+    "name": "Gianna Fraggetti",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Ben Grieder",
-    "big": "Andrew Luff",
-    "pledgeclass": "Winter 2022"
+    "name": "Adriana Guevara",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Mason Hoyt",
-    "big": "Max McNeal",
-    "pledgeclass": "Winter 2022"
+    "name": "Qadir Hameed",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Harry Persaud",
-    "big": "Shail Mirpuri",
-    "pledgeclass": "Winter 2022"
+    "name": "Jack Hautamaki",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Akshyae Singh",
-    "big": "Matthew Marsh",
-    "pledgeclass": "Fall 2022"
+    "name": "Kirolos Kellini",
+    "big": "Christopher Schiavino",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Baltej Randhawa",
-    "big": "Irfan Lin",
-    "pledgeclass": "Fall 2022"
+    "name": "Blake Lochmandy",
+    "big": "Matheson Prather",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Ben Hant",
-    "big": "Mason Hoyt",
-    "pledgeclass": "Fall 2022"
+    "name": "Alanna O'Connell",
+    "big": "Dawson Wells",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Chaynce Henderson",
-    "big": "Ayden Mackenzie",
-    "pledgeclass": "Fall 2022"
+    "name": "Ashling O'Neill",
+    "big": "Julia Da Silva",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Chris Vaca",
-    "big": "Marcus Orwin",
-    "pledgeclass": "Fall 2022"
+    "name": "Tony Prusaczyk",
+    "big": "Anusha Gan Chowdhury",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Connor Keithly",
-    "big": "Ben Grieder",
-    "pledgeclass": "Fall 2022"
+    "name": "Antony Silva",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Cyrus Mirsafian",
-    "big": "Colin McMahon",
-    "pledgeclass": "Fall 2022"
+    "name": "Hunter Smith",
+    "big": "Varadha Anandakumar",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Damian Nastic",
-    "big": "Jonathan Conrad",
-    "pledgeclass": "Fall 2022"
+    "name": "Yara Tabbalat",
+    "big": "Gregory Allen",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Elijah Brown",
-    "big": "Sam Peterson",
-    "pledgeclass": "Fall 2022"
+    "name": "Arsene Landry Tatke",
+    "big": "Alexander Parady",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Evan Leach",
-    "big": "Will Tucker",
-    "pledgeclass": "Fall 2022"
+    "name": "Grant Umphrey",
+    "pledgeclass": "Theta Beta (F'21)"
   },
   {
-    "name": "Garratt Army",
-    "big": "Carter Wink",
-    "pledgeclass": "Fall 2022"
+    "name": "Leonie Alexandra",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Garrett Gattis",
-    "big": "Jacob Nanquil",
-    "pledgeclass": "Fall 2022"
+    "name": "Salma Bentaj",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Ian White",
-    "big": "Kent Bourgoing",
-    "pledgeclass": "Fall 2022"
+    "name": "Daniel Correa",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Ivan Hernandez",
-    "big": "Josh Eidam",
-    "pledgeclass": "Fall 2022"
+    "name": "Aidan Dion",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Jake Ramos",
-    "big": "Kody Lamb",
-    "pledgeclass": "Fall 2022"
+    "name": "Olivia Laspata",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "James Cessna",
-    "big": "Andrew Luff",
-    "pledgeclass": "Fall 2022"
+    "name": "Mahyar Mahtabfar",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Jin Ong",
-    "big": "Brian Taylor",
-    "pledgeclass": "Fall 2022"
+    "name": "Christopher McChesney",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Josh Gurdak",
-    "big": "Cole McQuinn",
-    "pledgeclass": "Fall 2022"
+    "name": "Evan McLeod",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Luke Admire",
-    "big": "Jackson Weldon",
-    "pledgeclass": "Fall 2022"
+    "name": "Karina Quiroga",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Marcus Lansing",
-    "big": "Brendan McMahon",
-    "pledgeclass": "Fall 2022"
+    "name": "Egan Rigney",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Michael Sorooshian",
-    "big": "Alvin Hadley",
-    "pledgeclass": "Fall 2022"
+    "name": "Landon Russell",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Nick Costantini",
-    "big": "Johnny Bhaskar",
-    "pledgeclass": "Fall 2022"
+    "name": "David Umanzor",
+    "big": "Andrea Mungroo",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Noah Maris",
-    "big": "Judah Chambers",
-    "pledgeclass": "Fall 2022"
+    "name": "Anna Vinson",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Parker Jones",
-    "big": "Quinn Hilger",
-    "pledgeclass": "Fall 2022"
+    "name": "Nicole Weeden Martins",
+    "pledgeclass": "Iota Beta (S'22)"
   },
   {
-    "name": "Robbie Hall",
-    "big": "Gio Villalobos",
-    "pledgeclass": "Fall 2022"
+    "name": "Julie Bolling",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Rohan Narasimhan",
-    "big": "Peter DePaul",
-    "pledgeclass": "Fall 2022"
+    "name": "Ryan Bulaclac",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Ryan Shelburne",
-    "big": "Charles Whitcomb",
-    "pledgeclass": "Fall 2022"
+    "name": "Daniel Caputo",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Ryan Welker",
-    "big": "Tucker Waters",
-    "pledgeclass": "Fall 2022"
+    "name": "Dylan Cecere",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Spencer Brown",
-    "big": "Kyle Almon",
-    "pledgeclass": "Fall 2022"
+    "name": "Amy Chen",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Stephen Conrad",
-    "big": "John Reinker",
-    "pledgeclass": "Fall 2022"
+    "name": "Matthew Dearolph",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Tully Cannon",
-    "big": "Kyle Cota",
-    "pledgeclass": "Fall 2022"
+    "name": "Hagen Farrell",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Zayn Khan",
-    "big": "Agam Bedi",
-    "pledgeclass": "Fall 2022"
+    "name": "Amy Gonzalez",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Jakob Jensen",
-    "big": "Carter Wink",
-    "pledgeclass": "Winter 2023"
+    "name": "Merrin Hayes",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Andrew Huang",
-    "big": "Jackson Weldon",
-    "pledgeclass": "Winter 2023"
+    "name": "Madison Manankil",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Daniel Burns",
-    "big": "Kody Lamb",
-    "pledgeclass": "Winter 2023"
+    "name": "Austin Naugle",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Howard Zhang",
-    "big": "Marcus Orwin",
-    "pledgeclass": "Winter 2023"
+    "name": "Savannah Osburn",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Jayden Zwern",
-    "big": "Aidan Cone",
-    "pledgeclass": "Winter 2023"
+    "name": "Benji Ruiztagle",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Adam Little-Varga",
-    "big": "Cole McQuinn",
-    "pledgeclass": "Winter 2023"
+    "name": "Mia Shoemaker",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Matt Hy",
-    "big": "Tully Cannon",
-    "pledgeclass": "Winter 2023"
+    "name": "Jessica Solanki",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Kalani Seymore",
-    "big": "Johnny Bhaskar",
-    "pledgeclass": "Winter 2023"
+    "name": "Isabella Solano",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Wayne Chiang",
-    "big": "Jin Ong",
-    "pledgeclass": "Winter 2023"
+    "name": "Maya Sosa",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Nathan Tang",
-    "big": "Ryan Shelburne",
-    "pledgeclass": "Winter 2023"
+    "name": "Kalie Walker",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Jason Ye",
-    "big": "Jake Ramos",
-    "pledgeclass": "Winter 2023"
+    "name": "Anterea Williams",
+    "big": "Alanna O'Connell",
+    "pledgeclass": "Kappa Beta (F'22)"
   },
   {
-    "name": "Raj Batra",
-    "big": "Oliver Whalen",
-    "pledgeclass": "Winter 2023"
+    "name": "John Kwasinski",
+    "pledgeclass": "Omega Gamma Chapter"
   },
   {
-    "name": "Andrew Bistras",
-    "big": "Johnny Bhaskar",
-    "pledgeclass": "Fall 2023"
+    "name": "Isabella Buitano",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Andrew Darwin",
-    "big": "Kalani Seymore",
-    "pledgeclass": "Fall 2023"
+    "name": "Riley Burke",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Blake Marvin",
-    "big": "Cole McQuinn",
-    "pledgeclass": "Fall 2023"
+    "name": "Katelyn Campbell",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Bobby Balbuena",
-    "big": "Josh Gurdak",
-    "pledgeclass": "Fall 2023"
+    "name": "Tiffanie Crumbie",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Brian Booher",
-    "big": "Parth Doshi",
-    "pledgeclass": "Fall 2023"
+    "name": "Jordan Dapore",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Chad Moore",
-    "big": "Jared Patel",
-    "pledgeclass": "Fall 2023"
+    "name": "Kevin Dasrath",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "George Spanodimos",
-    "big": "Jayden Zwern",
-    "pledgeclass": "Fall 2023"
+    "name": "Kylie Daum",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Jackson Wooton",
-    "big": "Connor Keithly",
-    "pledgeclass": "Fall 2023"
+    "name": "Jackson Dillon",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Jae Hall",
-    "big": "Nathan Tang",
-    "pledgeclass": "Fall 2023"
+    "name": "Ryan Etten",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Kaito Ikeda",
-    "big": "Wayne Chiang",
-    "pledgeclass": "Fall 2023"
+    "name": "Tyler Franco",
+    "big": "David Umanzor",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Kellan Kim",
-    "big": "Zayn Khan",
-    "pledgeclass": "Fall 2023"
+    "name": "Jacqueline Harper",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Kyle Bruckman",
-    "big": "Tully Cannon",
-    "pledgeclass": "Fall 2023"
+    "name": "Raghav Grover",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Marcel Sekesan",
-    "big": "Akshyae Singh",
-    "pledgeclass": "Fall 2023"
+    "name": "Bengaly Kone",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Marty Johnson",
-    "big": "Mason Hoyt",
-    "pledgeclass": "Fall 2023"
+    "name": "Max Kovalsky",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Maxwell Loiacono",
-    "big": "Marcus Lansing",
-    "pledgeclass": "Fall 2023"
+    "name": "Sabrina Levine",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Mustafa Agha",
-    "big": "John Reinker",
-    "pledgeclass": "Fall 2023"
+    "name": "Damien Moore",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Payton Pelaez",
-    "big": "Chaynce Henderson",
-    "pledgeclass": "Fall 2023"
+    "name": "Sophia Riestra",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Ryan Clark",
-    "big": "Nick Costantini",
-    "pledgeclass": "Fall 2023"
+    "name": "Emma Twilley",
+    "pledgeclass": "Lambda Beta (F'23)"
   },
   {
-    "name": "Yash Abhyankar",
-    "big": "Baltej Randhawa",
-    "pledgeclass": "Fall 2023"
+    "name": "Sydney Watson",
+    "pledgeclass": "Lambda Beta (F'23)"
   }
 ];
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
