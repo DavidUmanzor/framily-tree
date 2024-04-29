@@ -2451,7 +2451,7 @@ var brothers = [
   },
   {
     "name": "Gregory Allen",
-    "big": "Kaileyann Rodriguez",
+    "big": "Melissa Doan",
     "pledgeclass": "Zeta Beta (S'20)"
   },
   {
