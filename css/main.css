@@ -21,3 +21,20 @@ div.stretchy-wrapper {
   padding-bottom: 66%; /* 3:2, the flag's aspect ratio */
   position: relative;
 }
+
+/* Stylesheet for layout and spacing */
+.controls {
+  display: flex; /* Flexbox layout to align children inline */
+  justify-content: space-between; /* Distributes space between elements */
+  align-items: center; /* Vertically centers the content */
+  padding: 10px; /* Padding around the controls container */
+}
+
+.control-item {
+  margin: 0 10px; /* Spacing between control items */
+  flex-grow: 1; /* Allows each control item to grow evenly */
+}
+
+.control-item p {
+  margin: 0; /* Removes default margin from paragraphs for cleaner alignment */
+}
