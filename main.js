@@ -271,7 +271,7 @@ function populateFamilyDropdown() {
 }
 
 function applyColorScheme() {
-  var colorMethod = $('#layout').val();  // Get the current method of coloring
+  var colorMethod = $('#layout').val(); // Get the current method of coloring
 
   nodesDataSet.forEach(function (node) {
     var nodeColor;
@@ -286,7 +286,10 @@ function applyColorScheme() {
         nodeColor = familyColor[node.family.toLowerCase()];
         break;
     }
-    nodesDataSet.update({id: node.id, color: nodeColor});
+    nodesDataSet.update({
+      id: node.id, 
+      color: nodeColor
+    });
   });
 
   if (network) {
@@ -308,12 +311,14 @@ function updateNetwork() {
     },
     edges: {
       smooth: true,
-      arrows: {to: true}
+      arrows: {
+        to: true
+      }
     }
   };
 
   if (network) {
-    network.destroy();  // If there is already a network, destroy it before recreating it
+    network.destroy(); // If there is already a network, destroy it before recreating it
   }
   network = new vis.Network(container, data, options);
 }
