@@ -18,22 +18,29 @@
 
 <body>
 <h1>Rho Gamma Family Tree</h1>
-<p>Color-coding:
-<select id="layout">
-  <option value="family">family</option>
-  <option value="pledgeClass">pledge class</option>
-  <option value="active">active vs. inactive</option>
-</select></p>
-<div>
-  <input type="text" id="searchbox" placeholder="Brother's name...">
-  <button id="searchbutton">Search</button>
+<div class="controls">
+  <div class="control-item">
+      <p>Color-coding:
+          <select id="layout">
+              <option value="family">family</option>
+              <option value="pledgeClass">pledge class</option>
+              <option value="active">active vs. inactive</option>
+          </select>
+      </p>
+  </div>
+  <div class="control-item">
+      <input type="text" id="searchbox" placeholder="Brother's name...">
+      <button id="searchbutton">Search</button>
+  </div>
+  <div class="control-item">
+      <p>Select a Family:
+          <select id="familyFilter">
+              <option value="all">All Families</option>
+              <!-- Additional options will be dynamically added by JavaScript -->
+          </select>
+      </p>
+  </div>
 </div>
-<p>Select a Family:
-  <select id="familyFilter">
-    <option value="all">All Families</option>
-    <!-- Additional options will be dynamically added by JavaScript -->
-  </select>
-</p>  
 <br/>
 
 <div class="stretchy-wrapper">
