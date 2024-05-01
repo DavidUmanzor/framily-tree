@@ -255,90 +255,85 @@ function findBrother(name) {
   return false; // Could not find a match
 }
 
+// This populates the dropdown with the family names for the HTML page
+function populateFamilyDropdown() {
+  var uniqueFamilies = {}; // Object to store unique families
+  brothers.forEach(function (bro) {
+    var familyKey = bro.familystarted.toLowerCase(); // Normalize to lower case to ensure uniqueness
+    if (bro.familystarted && !uniqueFamilies[familyKey]) {
+      uniqueFamilies[familyKey] = true;
+      $('#familyFilter').append($('<option>', {
+        value: familyKey,
+        text: bro.familystarted
+      }));
+    }
+  });
+}
+
 function draw() {
-  createNodes();
+  createNodes(); // Initialize nodes and edges if needed
 
-  var changeColor;
-  var colorMethod = document.getElementById('layout').value;
-  switch (colorMethod) {
-    case 'active':
-      changeColor = function (node) {
-        node.color = (node.inactive || node.graduated)
-          ? 'lightgrey' : 'lightblue';
-        nodesDataSet.update(node);
-      };
-      break;
-    case 'pledgeClass':
-      changeColor = function (node) {
-        node.color = node.pledgeclass
-          ? pledgeClassColor[node.pledgeclass.toLowerCase()]
-          : 'lightgrey';
-        nodesDataSet.update(node);
-      };
-      break;
-    default: // 'family'
-      changeColor = function (node) {
-        node.color = familyColor[node.family.toLowerCase()];
-        nodesDataSet.update(node);
-      };
-      break;
-  }
-  nodes.forEach(changeColor);
-  if (!network) {
-    // create a network
-    var container = document.getElementById('mynetwork');
-    var data = {
-      nodes: nodesDataSet,
-      edges: edgesDataSet,
-    };
+  var selectedFamily = $('#familyFilter').val().toLowerCase(); // Get the selected family from dropdown
+  var visibleNodes = selectedFamily === 'all' ? nodes : nodes.filter(function (node) {
+    return node.family && node.family.toLowerCase() === selectedFamily;
+  });
 
-    var options = {
-      layout: {
-        hierarchical: {
-          sortMethod: 'directed',
-        },
-      },
-      edges: {
-        smooth: true,
-        arrows: { to: true },
-      },
-    };
-    network = new vis.Network(container, data, options);
-  } else {
-    network.redraw();
-  }
+  var visibleEdges = edges.filter(function (edge) {
+    var fromFound = false;
+    var toFound = false;
+    for (var i = 0; i < visibleNodes.length; i++) {
+      if (visibleNodes[i].id === edge.from) {
+        fromFound = true;
+      }
+      if (visibleNodes[i].id === edge.to) {
+        toFound = true;
+      }
+      if (fromFound && toFound) break; // Stop loop early if both nodes are found
+    }
+    return fromFound && toFound;
+  });
+
+  nodesDataSet.clear();
+  edgesDataSet.clear();
+  nodesDataSet.add(visibleNodes);
+  edgesDataSet.add(visibleEdges);
+
+  updateNetwork();
+  applyColorScheme(); // Ensure color scheme is applied
 }
 
 if (typeof document !== 'undefined') {
   $(document).ready(function () {
-    // Start the first draw
-    draw();
-
-    // Search feature
-    var dropdown = document.getElementById('layout');
-    dropdown.onchange = function () {
-      draw();
-    };
-    function search() {
+    populateFamilyDropdown();
+    draw(); // Initial draw
+  
+    $('#familyFilter').change(function () {
+      draw(); // Redraw when family selection changes
+    });
+    $('#layout').change(function () {
+      draw(); // Redraw when color coding changes
+    });
+  
+    // Set up search functionality
+    $('#searchbutton').click(function () {
       var query = $('#searchbox').val();
       var success = findBrother(query);
-
-      // Indicate if the search succeeded or not.
+  
+      // Update the search box color based on success
       if (success) {
         $('#searchbox').css('background-color', 'white');
       } else {
-        $('#searchbox').css('background-color', '#EEC4C6'); // red matching flag
+        $('#searchbox').css('background-color', '#EEC4C6'); // Red matching flag
       }
-    }
-    document.getElementById('searchbox').onkeypress = function (e) {
-      if (!e) e = window.event;
-      var keyCode = e.keyCode || e.which;
-      if (keyCode === '13' || keyCode === 13 /* Enter */) {
-        search();
+    });
+  
+    $('#searchbox').keypress(function (e) {
+      var keyCode = e.which || e.keyCode;
+      if (keyCode === 13) { // Enter key
+        $('#searchbutton').click();
       }
-    };
-    document.getElementById('searchbutton').onclick = search;
-  });
+    });
+  });  
 }
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
