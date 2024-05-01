@@ -9,16 +9,35 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node-version:
-          - 12
-          - 14
-          - 16
-          - 18
-          - 20
-        os:
-          - ubuntu-latest
-          - macos-latest
-          - windows-latest
+        include:
+          # Latest LTS versions and latest stable version of Node.js
+          - node-version: '14'  # Active LTS
+            os: ubuntu-latest
+          - node-version: '14'
+            os: macos-10.15  # Specify older macOS for Intel architecture
+          - node-version: '14'
+            os: windows-latest
+          
+          - node-version: '16'  # Maintenance LTS
+            os: ubuntu-latest
+          - node-version: '16'
+            os: macos-latest  # Latest macOS, supports M1
+          - node-version: '16'
+            os: windows-latest
+
+          - node-version: '18'  # Current Active LTS
+            os: ubuntu-latest
+          - node-version: '18'
+            os: macos-latest
+          - node-version: '18'
+            os: windows-latest
+
+          - node-version: '20'  # Latest stable
+            os: ubuntu-latest
+          - node-version: '20'
+            os: macos-latest
+          - node-version: '20'
+            os: windows-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
