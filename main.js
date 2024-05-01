@@ -270,6 +270,54 @@ function populateFamilyDropdown() {
   });
 }
 
+function applyColorScheme() {
+  var colorMethod = $('#layout').val();  // Get the current method of coloring
+
+  nodesDataSet.forEach(function (node) {
+    var nodeColor;
+    switch (colorMethod) {
+      case 'active':
+        nodeColor = (node.inactive || node.graduated) ? 'lightgrey' : 'lightblue';
+        break;
+      case 'pledgeClass':
+        nodeColor = node.pledgeclass ? pledgeClassColor[node.pledgeclass.toLowerCase()] : 'lightgrey';
+        break;
+      default: // 'family'
+        nodeColor = familyColor[node.family.toLowerCase()];
+        break;
+    }
+    nodesDataSet.update({id: node.id, color: nodeColor});
+  });
+
+  if (network) {
+    network.redraw();  // Redraw the network to apply color changes
+  }
+}
+
+function updateNetwork() {
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodesDataSet,
+    edges: edgesDataSet
+  };
+  var options = {
+    layout: {
+      hierarchical: {
+        sortMethod: 'directed'
+      }
+    },
+    edges: {
+      smooth: true,
+      arrows: {to: true}
+    }
+  };
+
+  if (network) {
+    network.destroy();  // If there is already a network, destroy it before recreating it
+  }
+  network = new vis.Network(container, data, options);
+}
+
 function draw() {
   createNodes(); // Initialize nodes and edges if needed
 
@@ -306,19 +354,19 @@ if (typeof document !== 'undefined') {
   $(document).ready(function () {
     populateFamilyDropdown();
     draw(); // Initial draw
-  
+
     $('#familyFilter').change(function () {
       draw(); // Redraw when family selection changes
     });
     $('#layout').change(function () {
       draw(); // Redraw when color coding changes
     });
-  
+
     // Set up search functionality
     $('#searchbutton').click(function () {
       var query = $('#searchbox').val();
       var success = findBrother(query);
-  
+
       // Update the search box color based on success
       if (success) {
         $('#searchbox').css('background-color', 'white');
@@ -326,14 +374,14 @@ if (typeof document !== 'undefined') {
         $('#searchbox').css('background-color', '#EEC4C6'); // Red matching flag
       }
     });
-  
+
     $('#searchbox').keypress(function (e) {
       var keyCode = e.which || e.keyCode;
       if (keyCode === 13) { // Enter key
         $('#searchbutton').click();
       }
     });
-  });  
+  });
 }
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
