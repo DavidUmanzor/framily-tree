@@ -2372,87 +2372,104 @@ var brothers = [
   {
     "name": "Kaitlyn Bowman",
     "big": "Casey Guarasci",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Jared Eckert",
     "big": "Liam Tirney",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Anusha Gan Chowdhury",
     "big": "America Sanchez",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Roger Guerrero",
     "big": "Henry Richardson Jr.",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Arthur Henry",
     "big": "Eric Smith",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Caitlyn Lucey",
     "big": "William Kale Gibson",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Nathan Nimbargi",
     "big": "Jeff Shiflett",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Alexander Parady",
     "big": "Roberto Navarro",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Ryan Parker",
     "big": "Melissa Doan",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Pujan Patel",
     "big": "Kevin Pastrano",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Iris Peterson",
     "big": "Hanna Quinn",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Matheson Prather",
     "big": "Alex Busot",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Max Reiver",
     "big": "Nick Cosola",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Andrew Remmers",
     "big": "Grant Austin",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Carlos Ricoveri",
     "big": "Jordan Lopez",
-    "pledgeclass": "Epsilon Beta (F'19)"
+    "pledgeclass": "Epsilon Beta (F'19)",
+    "graduated": true
   },
   {
     "name": "Fadi Alhihi",
     "big": "John Hatchitt",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Gregory Allen",
     "big": "Melissa Doan",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Katheryn Berndt",
@@ -2462,37 +2479,44 @@ var brothers = [
   {
     "name": "Daniel Biller",
     "big": "Trey Sneeringer",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Cristina Costin",
     "big": "Lindsey Strembicki",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Aaron Crawford",
     "big": "Connor Whitley",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Michael Diaz",
     "big": "Hannah Moss",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Alec DiLiello",
     "big": "Matt Albro",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Martin Granger",
     "big": "Adriana Lopez",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Erik Guier",
     "big": "Roger Guerrero",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Jacob Hagan",
@@ -2507,7 +2531,8 @@ var brothers = [
   {
     "name": "Joshua Meyer",
     "big": "Andrew Turpin",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Lauren Paffrath",
@@ -2522,7 +2547,8 @@ var brothers = [
   {
     "name": "Jacob Shoemaker",
     "big": "Mathieu Gomez",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Ryan Strembicki",
@@ -2532,22 +2558,26 @@ var brothers = [
   {
     "name": "Giovanni Wancelotti",
     "big": "Ruben Ledezma",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Vanessa Willis",
     "big": "Shaye Glover",
-    "pledgeclass": "Zeta Beta (S'20)"
+    "pledgeclass": "Zeta Beta (S'20)",
+    "graduated": true
   },
   {
     "name": "Jenna Bates",
     "big": "Andrew Turpin",
-    "pledgeclass": "Eta Beta (S'21)"
+    "pledgeclass": "Eta Beta (S'21)",
+    "inactive": true
   },
   {
     "name": "Trevor Bernstein",
     "big": "Ben Griffin",
-    "pledgeclass": "Eta Beta (S'21)"
+    "pledgeclass": "Eta Beta (S'21)",
+    "graduated": true
   },
   {
     "name": "Tomasin Brennan",
@@ -2562,7 +2592,8 @@ var brothers = [
   {
     "name": "Pauline Johnson",
     "big": "America Sanchez",
-    "pledgeclass": "Eta Beta (S'21)"
+    "pledgeclass": "Eta Beta (S'21)",
+    "graduated": true
   },
   {
     "name": "Laila Khalil",
@@ -2572,17 +2603,20 @@ var brothers = [
   {
     "name": "Ellie Kozlowski",
     "big": "Ellie Lane",
-    "pledgeclass": "Eta Beta (S'21)"
+    "pledgeclass": "Eta Beta (S'21)",
+    "inactive": true
   },
   {
     "name": "Emily Levinson",
     "big": "Lindsay Arick",
-    "pledgeclass": "Eta Beta (S'21)"
+    "pledgeclass": "Eta Beta (S'21)",
+    "inactive": true
   },
   {
     "name": "Rebecca Perkins",
     "big": "Cristina Costin",
-    "pledgeclass": "Eta Beta (S'21)"
+    "pledgeclass": "Eta Beta (S'21)",
+    "inactive": true
   },
   {
     "name": "Frank Puzzini",
@@ -2592,17 +2626,20 @@ var brothers = [
   {
     "name": "Christopher Schiavino",
     "big": "Jared Eckert",
-    "pledgeclass": "Eta Beta (S'21)"
+    "pledgeclass": "Eta Beta (S'21)",
+    "inactive": true
   },
   {
     "name": "Lily Sigg",
     "big": "Varadha Anandakumar",
-    "pledgeclass": "Eta Beta (S'21)"
+    "pledgeclass": "Eta Beta (S'21)",
+    "inactive": true
   },
   {
     "name": "Anthony Villegas",
     "big": "Pujan Patel",
-    "pledgeclass": "Eta Beta (S'21)"
+    "pledgeclass": "Eta Beta (S'21)",
+    "graduated": true
   },
   {
     "name": "Clayton Williams",
@@ -2617,12 +2654,14 @@ var brothers = [
   {
     "name": "Marcello Botelho",
     "big": "Trevor Bernstein",
-    "pledgeclass": "Theta Beta (F'21)"
+    "pledgeclass": "Theta Beta (F'21)",
+    "inactive": true
   },
   {
     "name": "Max Collingwood",
     "big": "Jared Eckert",
-    "pledgeclass": "Theta Beta (F'21)"
+    "pledgeclass": "Theta Beta (F'21)",
+    "inactive": true
   },
   {
     "name": "Lauren Deering",
@@ -2632,7 +2671,8 @@ var brothers = [
   {
     "name": "Jake Dorfman",
     "big": "Lily Sigg",
-    "pledgeclass": "Theta Beta (F'21)"
+    "pledgeclass": "Theta Beta (F'21)",
+    "inactive": true
   },
   {
     "name": "Jonathan Douglas",
@@ -2642,22 +2682,26 @@ var brothers = [
   {
     "name": "Yousef Edwards",
     "big": "Pujan Patel",
-    "pledgeclass": "Theta Beta (F'21)"
+    "pledgeclass": "Theta Beta (F'21)",
+    "inactive": true
   },
   {
     "name": "Gianna Fraggetti",
     "big": "Karla Escobar",
-    "pledgeclass": "Theta Beta (F'21)"
+    "pledgeclass": "Theta Beta (F'21)",
+    "graduated": true
   },
   {
     "name": "Adriana Guevara",
     "big": "Emily Levinson",
-    "pledgeclass": "Theta Beta (F'21)"
+    "pledgeclass": "Theta Beta (F'21)",
+    "graduated": true
   },
   {
     "name": "Qadir Hameed",
     "big": "Erik Guier",
-    "pledgeclass": "Theta Beta (F'21)"
+    "pledgeclass": "Theta Beta (F'21)",
+    "graduated": true
   },
   {
     "name": "Jack Hautamaki",
@@ -2672,7 +2716,8 @@ var brothers = [
   {
     "name": "Blake Lochmandy",
     "big": "Matheson Prather",
-    "pledgeclass": "Theta Beta (F'21)"
+    "pledgeclass": "Theta Beta (F'21)",
+    "graduated": true
   },
   {
     "name": "Alanna O'Connell",
@@ -2692,7 +2737,8 @@ var brothers = [
   {
     "name": "Antony Silva",
     "big": "Aaron Crawford",
-    "pledgeclass": "Theta Beta (F'21)"
+    "pledgeclass": "Theta Beta (F'21)",
+    "inactive": true
   },
   {
     "name": "Hunter Smith",
@@ -2713,6 +2759,54 @@ var brothers = [
     "name": "Grant Umphrey",
     "big": "Vanessa Willis",
     "pledgeclass": "Theta Beta (F'21)"
+  },
+  {
+    "name": "Leonie Alexandra",
+    "big": "Michael Diaz",
+    "pledgeclass": "Iota Beta (S'22)",
+    "inactive": true
+  },
+  {
+    "name": "Daniel Correa",
+    "big": "Hannah Moss",
+    "pledgeclass": "Iota Beta (S'22)"
+  },
+  {
+    "name": "Karina Quiroga",
+    "big": "Kaitlyn Bowman",
+    "pledgeclass": "Iota Beta (S'22)",
+    "graduated": true
+  },
+  {
+    "name": "David Umanzor",
+    "big": "Andrea Mungroo",
+    "pledgeclass": "Iota Beta (S'22)"
+  },
+  {
+    "name": "Julie Bolling",
+    "big": "Jacob Hagan",
+    "pledgeclass": "Kappa Beta (F'22)"
+  },
+  {
+    "name": "Ryan Bulaclac",
+    "big": "Qadir Hameed",
+    "pledgeclass": "Kappa Beta (F'22)"
+  },
+  {
+    "name": "Mia Shoemaker",
+    "big": "Kaitlyn Bowman",
+    "pledgeclass": "Kappa Beta (F'22)"
+  },
+  {
+    "name": "Anterea Williams",
+    "big": "Alanna O'Connell",
+    "pledgeclass": "Kappa Beta (F'22)",
+    "inactive": true
+  },
+  {
+    "name": "Tyler Franco",
+    "big": "David Umanzor",
+    "pledgeclass": "Lambda Beta (F'23)"
   }
 ];
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
