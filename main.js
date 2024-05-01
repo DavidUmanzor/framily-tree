@@ -273,7 +273,9 @@ function draw() {
   createNodes();  // Initialize nodes and edges if not done already.
 
   var selectedFamily = $('#familyFilter').val();  // Get the selected family from the dropdown.
-  var activeNodes = (selectedFamily === 'all') ? nodes : nodes.filter(node => node.family.toLowerCase() === selectedFamily.toLowerCase());
+  var activeNodes = (selectedFamily === 'all') ? nodes : nodes.filter(function(node) {
+    return node.family.toLowerCase() === selectedFamily.toLowerCase();
+  });
   var activeEdges = [];
 
   // Collect edges that connect the filtered nodes
