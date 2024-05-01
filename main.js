@@ -270,17 +270,17 @@ function populateFamilyDropdown() {
 }
 
 function draw() {
-  createNodes();  // Initialize nodes and edges if not done already.
+  createNodes(); // Initialize nodes and edges if not done already.
 
-  var selectedFamily = $('#familyFilter').val();  // Get the selected family from the dropdown.
-  var activeNodes = (selectedFamily === 'all') ? nodes : nodes.filter(function(node) {
+  var selectedFamily = $('#familyFilter').val(); // Get the selected family from the dropdown.
+  var activeNodes = (selectedFamily === 'all') ? nodes : nodes.filter(function (node) {
     return node.family.toLowerCase() === selectedFamily.toLowerCase();
   });
   var activeEdges = [];
 
   // Collect edges that connect the filtered nodes
-  activeNodes.forEach(function(node) {
-    edges.forEach(function(edge) {
+  activeNodes.forEach(function (node) {
+    edges.forEach(function (edge) {
       if (edge.from === node.id || edge.to === node.id) {
         activeEdges.push(edge);
       }
@@ -291,14 +291,14 @@ function draw() {
   nodesDataSet = new vis.DataSet(activeNodes);
   edgesDataSet = new vis.DataSet(activeEdges);
 
-  updateNetwork();  // Use the current nodesDataSet and edgesDataSet to update the visualization
-  applyColorScheme();  // Apply the color scheme based on the current selection in the dropdown
+  updateNetwork(); // Use the current nodesDataSet and edgesDataSet to update the visualization
+  applyColorScheme(); // Apply the color scheme based on the current selection in the dropdown
 }
 
 function applyColorScheme() {
   var colorMethod = $('#layout').val();
 
-  nodesDataSet.forEach(function(node) {
+  nodesDataSet.forEach(function (node) {
     switch (colorMethod) {
       case 'active':
         node.color = (node.inactive || node.graduated) ? 'lightgrey' : 'lightblue';
