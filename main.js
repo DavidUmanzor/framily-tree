@@ -257,30 +257,40 @@ function findBrother(name) {
 
 // This populates the dropdown with the family names for the HTML page
 function populateFamilyDropdown() {
-  var familySet = new Set(); // Use a Set to avoid duplicates
+  var uniqueFamilies = {}; // Object to store unique families
   brothers.forEach(function (bro) {
-    if (bro.familystarted) {
-      familySet.add(bro.familystarted);
+    var familyKey = bro.familystarted.toLowerCase(); // Normalize to lower case to ensure uniqueness
+    if (bro.familystarted && !uniqueFamilies[familyKey]) {
+      uniqueFamilies[familyKey] = true;
+      $('#familyFilter').append($('<option>', {
+        value: familyKey,
+        text: bro.familystarted
+      }));
     }
-  });
-  familySet.forEach(function (family) {
-    $('#familyFilter').append($('<option>', {
-      value: family.toLowerCase(), // Use lowercase to standardize
-      text: family
-    }));
   });
 }
 
-
 function draw() {
-  createNodes(); // Make sure nodes and edges are initialized
+  createNodes(); // Initialize nodes and edges if needed
 
   var selectedFamily = $('#familyFilter').val().toLowerCase(); // Get the selected family from dropdown
   var visibleNodes = selectedFamily === 'all' ? nodes : nodes.filter(function (node) {
     return node.family && node.family.toLowerCase() === selectedFamily;
   });
+
   var visibleEdges = edges.filter(function (edge) {
-    return visibleNodes.find(n => n.id === edge.from) && visibleNodes.find(n => n.id === edge.to);
+    var fromFound = false;
+    var toFound = false;
+    for (var i = 0; i < visibleNodes.length; i++) {
+      if (visibleNodes[i].id === edge.from) {
+        fromFound = true;
+      }
+      if (visibleNodes[i].id === edge.to) {
+        toFound = true;
+      }
+      if (fromFound && toFound) break; // Stop loop early if both nodes are found
+    }
+    return fromFound && toFound;
   });
 
   nodesDataSet.clear();
@@ -289,44 +299,41 @@ function draw() {
   edgesDataSet.add(visibleEdges);
 
   updateNetwork();
-  applyColorScheme(); // Make sure to apply color changes if needed
+  applyColorScheme(); // Ensure color scheme is applied
 }
-
-
 
 if (typeof document !== 'undefined') {
   $(document).ready(function () {
     populateFamilyDropdown();
     draw(); // Initial draw
   
-    $('#familyFilter').change(draw); // Redraw when family selection changes
-    $('#layout').change(draw); // Redraw when color coding changes
-
-    // Search feature
-    var dropdown = document.getElementById('layout');
-    dropdown.onchange = function () {
-      draw();
-    };
-    function search() {
+    $('#familyFilter').change(function () {
+      draw(); // Redraw when family selection changes
+    });
+    $('#layout').change(function () {
+      draw(); // Redraw when color coding changes
+    });
+  
+    // Set up search functionality
+    $('#searchbutton').click(function () {
       var query = $('#searchbox').val();
       var success = findBrother(query);
-
-      // Indicate if the search succeeded or not.
+  
+      // Update the search box color based on success
       if (success) {
         $('#searchbox').css('background-color', 'white');
       } else {
-        $('#searchbox').css('background-color', '#EEC4C6'); // red matching flag
+        $('#searchbox').css('background-color', '#EEC4C6'); // Red matching flag
       }
-    }
-    document.getElementById('searchbox').onkeypress = function (e) {
-      if (!e) e = window.event;
-      var keyCode = e.keyCode || e.which;
-      if (keyCode === '13' || keyCode === 13 /* Enter */) {
-        search();
+    });
+  
+    $('#searchbox').keypress(function (e) {
+      var keyCode = e.which || e.keyCode;
+      if (keyCode === 13) { // Enter key
+        $('#searchbutton').click();
       }
-    };
-    document.getElementById('searchbutton').onclick = search;
-  });
+    });
+  });  
 }
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
