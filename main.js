@@ -287,13 +287,13 @@ function applyColorScheme() {
         break;
     }
     nodesDataSet.update({
-      id: node.id, 
+      id: node.id,
       color: nodeColor
     });
   });
 
   if (network) {
-    network.redraw();  // Redraw the network to apply color changes
+    network.redraw(); // Redraw the network to apply color changes
   }
 }
 
