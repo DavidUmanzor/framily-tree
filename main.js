@@ -255,64 +255,52 @@ function findBrother(name) {
   return false; // Could not find a match
 }
 
-function draw() {
-  createNodes();
-
-  var changeColor;
-  var colorMethod = document.getElementById('layout').value;
-  switch (colorMethod) {
-    case 'active':
-      changeColor = function (node) {
-        node.color = (node.inactive || node.graduated)
-          ? 'lightgrey' : 'lightblue';
-        nodesDataSet.update(node);
-      };
-      break;
-    case 'pledgeClass':
-      changeColor = function (node) {
-        node.color = node.pledgeclass
-          ? pledgeClassColor[node.pledgeclass.toLowerCase()]
-          : 'lightgrey';
-        nodesDataSet.update(node);
-      };
-      break;
-    default: // 'family'
-      changeColor = function (node) {
-        node.color = familyColor[node.family.toLowerCase()];
-        nodesDataSet.update(node);
-      };
-      break;
-  }
-  nodes.forEach(changeColor);
-  if (!network) {
-    // create a network
-    var container = document.getElementById('mynetwork');
-    var data = {
-      nodes: nodesDataSet,
-      edges: edgesDataSet,
-    };
-
-    var options = {
-      layout: {
-        hierarchical: {
-          sortMethod: 'directed',
-        },
-      },
-      edges: {
-        smooth: true,
-        arrows: { to: true },
-      },
-    };
-    network = new vis.Network(container, data, options);
-  } else {
-    network.redraw();
-  }
+// This populates the dropdown with the family names for the HTML page
+function populateFamilyDropdown() {
+  var familySet = new Set(); // Use a Set to avoid duplicates
+  brothers.forEach(function (bro) {
+    if (bro.familystarted) {
+      familySet.add(bro.familystarted);
+    }
+  });
+  familySet.forEach(function (family) {
+    $('#familyFilter').append($('<option>', {
+      value: family.toLowerCase(), // Use lowercase to standardize
+      text: family
+    }));
+  });
 }
+
+
+function draw() {
+  createNodes(); // Make sure nodes and edges are initialized
+
+  var selectedFamily = $('#familyFilter').val().toLowerCase(); // Get the selected family from dropdown
+  var visibleNodes = selectedFamily === 'all' ? nodes : nodes.filter(function (node) {
+    return node.family && node.family.toLowerCase() === selectedFamily;
+  });
+  var visibleEdges = edges.filter(function (edge) {
+    return visibleNodes.find(n => n.id === edge.from) && visibleNodes.find(n => n.id === edge.to);
+  });
+
+  nodesDataSet.clear();
+  edgesDataSet.clear();
+  nodesDataSet.add(visibleNodes);
+  edgesDataSet.add(visibleEdges);
+
+  updateNetwork();
+  applyColorScheme(); // Make sure to apply color changes if needed
+}
+
+
 
 if (typeof document !== 'undefined') {
   $(document).ready(function () {
-    // Start the first draw
-    draw();
+    populateFamilyDropdown();
+    draw(); // Initial draw
+  
+    $('#familyFilter').change(draw); // Redraw when family selection changes
+    $('#layout').change(draw); // Redraw when color coding changes
 
     // Search feature
     var dropdown = document.getElementById('layout');
