@@ -255,90 +255,125 @@ function findBrother(name) {
   return false; // Could not find a match
 }
 
+// Function to populate the family dropdown
+function populateFamilyDropdown() {
+  var families = {};
+  brothers.forEach(function(brother) {
+    if (brother.familystarted && !families[brother.familystarted]) {
+      families[brother.familystarted] = true;
+      $('#familyFilter').append($('<option>', {
+        value: brother.familystarted,
+        text: brother.familystarted
+      }));
+    }
+  });
+}
+
 function draw() {
-  createNodes();
+  createNodes();  // Initialize nodes and edges if not done already.
 
-  var changeColor;
-  var colorMethod = document.getElementById('layout').value;
-  switch (colorMethod) {
-    case 'active':
-      changeColor = function (node) {
-        node.color = (node.inactive || node.graduated)
-          ? 'lightgrey' : 'lightblue';
-        nodesDataSet.update(node);
-      };
-      break;
-    case 'pledgeClass':
-      changeColor = function (node) {
-        node.color = node.pledgeclass
-          ? pledgeClassColor[node.pledgeclass.toLowerCase()]
-          : 'lightgrey';
-        nodesDataSet.update(node);
-      };
-      break;
-    default: // 'family'
-      changeColor = function (node) {
+  var selectedFamily = $('#familyFilter').val();  // Get the selected family from the dropdown.
+  var activeNodes = (selectedFamily === 'all') ? nodes : nodes.filter(node => node.family.toLowerCase() === selectedFamily.toLowerCase());
+  var activeEdges = [];
+
+  // Collect edges that connect the filtered nodes
+  activeNodes.forEach(node => {
+    edges.forEach(edge => {
+      if (edge.from === node.id || edge.to === node.id) {
+        activeEdges.push(edge);
+      }
+    });
+  });
+
+  // Re-initialize the datasets with filtered nodes and edges
+  nodesDataSet = new vis.DataSet(activeNodes);
+  edgesDataSet = new vis.DataSet(activeEdges);
+
+  updateNetwork();  // Use the current nodesDataSet and edgesDataSet to update the visualization
+  applyColorScheme();  // Apply the color scheme based on the current selection in the dropdown
+}
+
+// Function to apply color based on selected method (family, pledgeClass, or active)
+function applyColorScheme() {
+  var colorMethod = $('#layout').val();
+
+  nodesDataSet.forEach(node => {
+    switch (colorMethod) {
+      case 'active':
+        node.color = (node.inactive || node.graduated) ? 'lightgrey' : 'lightblue';
+        break;
+      case 'pledgeClass':
+        node.color = node.pledgeclass ? pledgeClassColor[node.pledgeclass.toLowerCase()] : 'lightgrey';
+        break;
+      default: // 'family'
         node.color = familyColor[node.family.toLowerCase()];
-        nodesDataSet.update(node);
-      };
-      break;
-  }
-  nodes.forEach(changeColor);
-  if (!network) {
-    // create a network
-    var container = document.getElementById('mynetwork');
-    var data = {
-      nodes: nodesDataSet,
-      edges: edgesDataSet,
-    };
+        break;
+    }
+    nodesDataSet.update(node);
+  });
 
-    var options = {
-      layout: {
-        hierarchical: {
-          sortMethod: 'directed',
-        },
-      },
-      edges: {
-        smooth: true,
-        arrows: { to: true },
-      },
-    };
-    network = new vis.Network(container, data, options);
-  } else {
+  if (network) {
     network.redraw();
   }
 }
 
+function updateNetwork() {
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodesDataSet,
+    edges: edgesDataSet,
+  };
+  var options = {
+    layout: {
+      hierarchical: {
+        sortMethod: 'directed',
+      },
+    },
+    edges: {
+      smooth: true,
+      arrows: { to: true },
+    },
+  };
+
+  if (network) {
+    network.destroy();
+  }
+
+  network = new vis.Network(container, data, options);
+}
+
 if (typeof document !== 'undefined') {
   $(document).ready(function () {
-    // Start the first draw
-    draw();
+    // Populate the family dropdown immediately after the data is available
+    populateFamilyDropdown();
 
-    // Search feature
-    var dropdown = document.getElementById('layout');
-    dropdown.onchange = function () {
-      draw();
-    };
-    function search() {
-      var query = $('#searchbox').val();
-      var success = findBrother(query);
+    // Setup change event handler for the family filter and layout dropdown
+    $('#familyFilter, #layout').change(draw);
 
-      // Indicate if the search succeeded or not.
-      if (success) {
-        $('#searchbox').css('background-color', 'white');
-      } else {
-        $('#searchbox').css('background-color', '#EEC4C6'); // red matching flag
-      }
-    }
-    document.getElementById('searchbox').onkeypress = function (e) {
-      if (!e) e = window.event;
-      var keyCode = e.keyCode || e.which;
-      if (keyCode === '13' || keyCode === 13 /* Enter */) {
+    // Setup the search feature
+    $('#searchbutton').click(search);
+    $('#searchbox').keypress(function (e) {
+      var keyCode = e.which || e.keyCode;
+      if (keyCode === 13) { // Enter key
         search();
       }
-    };
-    document.getElementById('searchbutton').onclick = search;
+    });
+
+    // Initial draw of the network
+    draw();
   });
+}
+
+function search() {
+  var query = $('#searchbox').val();
+  var success = findBrother(query);
+
+  // Indicate if the search succeeded or not
+  if (success) {
+    $('#searchbox').css('background-color', 'white');
+  } else {
+    $('#searchbox').css('background-color', '#EEC4C6'); // Red matching flag for no match found
+  }
 }
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
