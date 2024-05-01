@@ -279,8 +279,8 @@ function draw() {
   var activeEdges = [];
 
   // Collect edges that connect the filtered nodes
-  activeNodes.forEach(node => {
-    edges.forEach(edge => {
+  activeNodes.forEach(function(node) {
+    edges.forEach(function(edge) {
       if (edge.from === node.id || edge.to === node.id) {
         activeEdges.push(edge);
       }
@@ -295,11 +295,10 @@ function draw() {
   applyColorScheme();  // Apply the color scheme based on the current selection in the dropdown
 }
 
-// Function to apply color based on selected method (family, pledgeClass, or active)
 function applyColorScheme() {
   var colorMethod = $('#layout').val();
 
-  nodesDataSet.forEach(node => {
+  nodesDataSet.forEach(function(node) {
     switch (colorMethod) {
       case 'active':
         node.color = (node.inactive || node.graduated) ? 'lightgrey' : 'lightblue';
