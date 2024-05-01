@@ -259,16 +259,16 @@ function findBrother(name) {
 function populateFamilyDropdown() {
   var uniqueFamilies = {}; // Object to store unique families
   brothers.forEach(function (bro) {
-      if (bro.familystarted) { // Check if familystarted exists and is not an empty string
-          var familyKey = bro.familystarted.toLowerCase(); // Normalize to lower case to ensure uniqueness
-          if (!uniqueFamilies[familyKey]) {
-              uniqueFamilies[familyKey] = true;
-              $('#familyFilter').append($('<option>', {
-                  value: familyKey,
-                  text: bro.familystarted
-              }));
-          }
+    if (bro.familystarted) { // Check if familystarted exists and is not an empty string
+      var familyKey = bro.familystarted.toLowerCase(); // Normalize to lower case to ensure uniqueness
+      if (!uniqueFamilies[familyKey]) {
+        uniqueFamilies[familyKey] = true;
+        $('#familyFilter').append($('<option>', {
+          value: familyKey,
+          text: bro.familystarted
+        }));
       }
+    }
   });
 }
 
