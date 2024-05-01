@@ -258,7 +258,7 @@ function findBrother(name) {
 // Function to populate the family dropdown
 function populateFamilyDropdown() {
   var families = {};
-  brothers.forEach(function(brother) {
+  brothers.forEach(function (brother) {
     if (brother.familystarted && !families[brother.familystarted]) {
       families[brother.familystarted] = true;
       $('#familyFilter').append($('<option>', {
