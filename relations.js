@@ -2767,8 +2767,40 @@ var brothers = [
     "inactive": true
   },
   {
+    "name": "Salma Bentaj",
+    "big": "Jacob Shoemaker",
+    "pledgeclass": "Iota Beta (S'22)"
+  },
+  {
     "name": "Daniel Correa",
     "big": "Hannah Moss",
+    "pledgeclass": "Iota Beta (S'22)"
+  },
+  {
+    "name": "Aidan Dion",
+    "big": "Matheson Prather",
+    "pledgeclass": "Iota Beta (S'22)",
+    "graduated": true
+  },
+  {
+    "name": "Olivia Laspata",
+    "big": "Ryan Parker",
+    "pledgeclass": "Iota Beta (S'22)"
+  },
+  {
+    "name": "Mahyar Mahtabfar",
+    "big": "Kirolos Kellini",
+    "pledgeclass": "Iota Beta (S'22)",
+    "inactive": true
+  },
+  {
+    "name": "Christopher McChesney",
+    "big": "Arsene Landry Tatke",
+    "pledgeclass": "Iota Beta (S'22)"
+  },
+  {
+    "name": "Evan McLeod",
+    "big": "Trevor Bernstein",
     "pledgeclass": "Iota Beta (S'22)"
   },
   {
@@ -2778,9 +2810,32 @@ var brothers = [
     "graduated": true
   },
   {
+    "name": "Egan Rigney",
+    "big": "Tony Prusaczyk",
+    "pledgeclass": "Iota Beta (S'22)"
+  },
+  {
+    "name": "Landon Russell",
+    "big": "Hunter Davis",
+    "pledgeclass": "Iota Beta (S'22)",
+    "graduated": true
+  },
+  {
     "name": "David Umanzor",
     "big": "Andrea Mungroo",
     "pledgeclass": "Iota Beta (S'22)"
+  },
+  {
+    "name": "Anna Vinson",
+    "big": "Aubree Rivera",
+    "pledgeclass": "Iota Beta (S'22)",
+    "inactive": true
+  },
+  {
+    "name": "Nicole Weeden Martins",
+    "big": "Matias Barzallo",
+    "pledgeclass": "Iota Beta (S'22)",
+    "inactive": true
   },
   {
     "name": "Julie Bolling",
@@ -2793,8 +2848,91 @@ var brothers = [
     "pledgeclass": "Kappa Beta (F'22)"
   },
   {
+    "name": "Daniel Caputo",
+    "big": "Evan McLeod",
+    "pledgeclass": "Kappa Beta (F'22)",
+    "inactive": true
+  },
+  {
+    "name": "Dylan Cecere",
+    "big": "Marcello Botelho",
+    "pledgeclass": "Kappa Beta (F'22)",
+    "inactive": true
+  },
+  {
+    "name": "Amy Chen",
+    "big": "Anusha Gan Chowdhury",
+    "pledgeclass": "Kappa Beta (F'22)"
+  },
+  {
+    "name": "Matthew Dearolph",
+    "big": "Mackenzie Harrod",
+    "pledgeclass": "Kappa Beta (F'22)"
+  },
+  {
+    "name": "Hagen Farrell",
+    "big": "Hannah Moss",
+    "pledgeclass": "Kappa Beta (F'22)",
+    "inactive": true
+  },
+  {
+    "name": "Amy Gonzalez",
+    "big": "Lily Sigg",
+    "pledgeclass": "Kappa Beta (F'22)"
+  },
+  {
+    "name": "Merrin Hayes",
+    "big": "Adriana Guevara",
+    "pledgeclass": "Kappa Beta (F'22)"
+  },
+  {
+    "name": "Madison Manankil",
+    "big": "Lauren Deering",
+    "pledgeclass": "Kappa Beta (F'22)",
+    "inactive": true
+  },
+  {
+    "name": "Austin Naugle",
+    "big": "Jake Dorfman",
+    "pledgeclass": "Kappa Beta (F'22)",
+    "inactive": true
+  },
+  {
+    "name": "Savannah Osburn",
+    "big": "Blake Lochmandy",
+    "pledgeclass": "Kappa Beta (F'22)",
+    "graduated": true
+  },
+  {
+    "name": "Benji Ruiztagle",
+    "big": "Landon Russell",
+    "pledgeclass": "Kappa Beta (F'22)",
+    "graduated": true
+  },
+  {
     "name": "Mia Shoemaker",
     "big": "Kaitlyn Bowman",
+    "pledgeclass": "Kappa Beta (F'22)"
+  },
+  {
+    "name": "Jessica Solanki",
+    "big": "Anthony Villegas",
+    "pledgeclass": "Kappa Beta (F'22)",
+    "inactive": true
+  },
+  {
+    "name": "Isabella Solano",
+    "big": "Tomasin Brennan",
+    "pledgeclass": "Kappa Beta (F'22)"
+  },
+  {
+    "name": "Maya Sosa",
+    "big": "Karina Quiroga",
+    "pledgeclass": "Kappa Beta (F'22)"
+  },
+  {
+    "name": "Kalie Walker",
+    "big": "Erik Guier",
     "pledgeclass": "Kappa Beta (F'22)"
   },
   {
@@ -2804,8 +2942,103 @@ var brothers = [
     "inactive": true
   },
   {
+    "name": "John Kwasinski",
+    "big": "Giovanni Wancelotti",
+    "pledgeclass": "Omega Gamma Chapter"
+  },
+  {
+    "name": "Isabella Buitano",
+    "big": "Karina Quiroga",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Riley Burke",
+    "big": "Ashling O'Neill",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Katelyn Campbell",
+    "big": "Isabella Solano",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Tiffanie Crumbie",
+    "big": "Jonathan Douglas",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Jordan Dapore",
+    "big": "Jacob Shoemaker",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Kevin Dasrath",
+    "big": "Hunter Davis",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Kylie Daum",
+    "big": "Olivia Laspata",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Jackson Dillon",
+    "big": "John Kwasinski",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Ryan Etten",
+    "big": "Ryan Strembicki",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
     "name": "Tyler Franco",
     "big": "David Umanzor",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Jacqueline Harper",
+    "big": "Amy Chen",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Raghav Grover",
+    "big": "Ryan Bulaclac",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Bengaly Kone",
+    "big": "Amy Gonzalez",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Max Kovalsky",
+    "big": "Qadir Hameed",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Sabrina Levine",
+    "big": "Tomasin Brennan",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Damien Moore",
+    "big": "Mackenzie Harrod",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Sophia Riestra",
+    "big": "Yara Tabbalat",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Emma Twilley",
+    "big": "Merrin Hayes",
+    "pledgeclass": "Lambda Beta (F'23)"
+  },
+  {
+    "name": "Sydney Watson",
+    "big": "Kalie Walker",
     "pledgeclass": "Lambda Beta (F'23)"
   }
 ];
